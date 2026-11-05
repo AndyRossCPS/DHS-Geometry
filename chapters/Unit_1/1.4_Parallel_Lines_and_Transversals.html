@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>1.4 - Parallel Lines and Transversals – DHS Geometry</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../chapters/Unit_1/1.5_Angles_in_Triangles_and_Polygons.html" rel="next">
+<link href="../../chapters/Unit_1/1.3_Complementary_Supplementary_and_Vertical_Angles.html" rel="prev">
+<link href="../../images/logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-859b66b35598d39ec8aae4cd3ab271c8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      packages: { '[+]': ['ams', 'color', 'cancel', 'html'] },
+      macros: {
+        stepnote: ['\\hbox{}\\hskip 1em\\class{stepnote}{\\textcolor{gray}{\\scriptsize\\hbox{#1}}}', 1],
+        steptag: ['\\stepnote{#1}', 1],
+        snboth: ['\\hbox{}\\hskip 1em\\class{stepnote}{\\textcolor{gray}{\\scriptsize\\hbox{$#1$ both sides}}}', 1],
+        snplus: ['\\snboth{+\\,#1}', 1],
+        snminus: ['\\snboth{-\\,#1}', 1],
+        sntimes: ['\\snboth{\\times\\,#1}', 1],
+        sndiv: ['\\snboth{\\div\\,#1}', 1]
+      }},
+    chtml: { mtextInheritFont: true }
+    };
+</script>
+
+<script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles/custom-callouts.css">
+<link rel="stylesheet" href="../../styles/custom-general.css">
+<link rel="stylesheet" href="../../styles/glossary-tooltips.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">DHS Geometry</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-end">
+</div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../chapters/Unit_1/index.html">Unit 1: Lines, Angles, and Equations</a></li><li class="breadcrumb-item"><a href="../../chapters/Unit_1/1.4_Parallel_Lines_and_Transversals.html">1.4 - Parallel Lines and Transversals</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Welcome to Geometry</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Unit 1: Lines, Angles, and Equations</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/1.1_Points_Lines_Segments_and_Angles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.1 - Points, Lines, Segments, and Angles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/1.2_Segment_and_Angle_Addition.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.2 - Segment and Angle Addition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/1.3_Complementary_Supplementary_and_Vertical_Angles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.3 - Complementary, Supplementary, and Vertical Angles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/1.4_Parallel_Lines_and_Transversals.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">1.4 - Parallel Lines and Transversals</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/1.5_Angles_in_Triangles_and_Polygons.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.5 - Angles in Triangles and Polygons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/Summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 1 Summary</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 1 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 2: The Pythagorean Theorem and the Coordinate Plane</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.1_Square_Roots_and_Simplifying_Radicals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.1 - Square Roots and Simplifying Radicals</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.2_The_Pythagorean_Theorem_and_Its_Converse.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.2 - The Pythagorean Theorem and Its Converse</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.3_The_Pythagorean_Theorem_in_the_Real_World.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.3 - The Pythagorean Theorem in the Real World</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.4_Distance_on_the_Coordinate_Plane.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.4 - Distance on the Coordinate Plane</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.5_Midpoint.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.5 - Midpoint</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.6_Slope_Parallel_Lines_and_Perpendicular_Lines.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.6 - Slope, Parallel Lines, and Perpendicular Lines</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.7_Dividing_a_Segment_in_a_Ratio.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.7 - Dividing a Segment in a Ratio</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.8_Perimeter_and_Area_on_the_Coordinate_Plane.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.8 - Perimeter and Area on the Coordinate Plane</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.9_Checking_Shapes_with_Coordinates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.9 - Checking Shapes with Coordinates</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/Summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 2 Summary</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 2 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guided-notes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Printable Guided Notes</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glossary</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#warmup" id="toc-warmup" class="nav-link active" data-scroll-target="#warmup">🔥 Warm Up</a></li>
+  <li><a href="#learn" id="toc-learn" class="nav-link" data-scroll-target="#learn">👥 Learn Together</a>
+  <ul class="collapse">
+  <li><a href="#parallel-perpendicular-and-skew-lines" id="toc-parallel-perpendicular-and-skew-lines" class="nav-link" data-scroll-target="#parallel-perpendicular-and-skew-lines">1.4.1 - Parallel, Perpendicular, and Skew Lines</a></li>
+  <li><a href="#angles-made-by-a-transversal" id="toc-angles-made-by-a-transversal" class="nav-link" data-scroll-target="#angles-made-by-a-transversal">1.4.2 - Angles Made by a Transversal</a></li>
+  <li><a href="#parallel-lines-and-the-eight-angles" id="toc-parallel-lines-and-the-eight-angles" class="nav-link" data-scroll-target="#parallel-lines-and-the-eight-angles">1.4.3 - Parallel Lines and the Eight Angles</a></li>
+  <li><a href="#are-the-lines-parallel" id="toc-are-the-lines-parallel" class="nav-link" data-scroll-target="#are-the-lines-parallel">1.4.4 - Are the Lines Parallel?</a></li>
+  </ul></li>
+  <li><a href="#practice" id="toc-practice" class="nav-link" data-scroll-target="#practice">✍️ Practice On Your Own</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../chapters/Unit_1/index.html">Unit 1: Lines, Angles, and Equations</a></li><li class="breadcrumb-item"><a href="../../chapters/Unit_1/1.4_Parallel_Lines_and_Transversals.html">1.4 - Parallel Lines and Transversals</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">1.4 - Parallel Lines and Transversals</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Look at the stripes in a parking lot. They run side by side and never meet. Now look at the line along the edge of the lot. It crosses every stripe.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/Unit_1/1.4_eight.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="420"></p>
+</figure>
+</div>
+<p>When one line crosses two others, it makes eight angles. If the two lines are parallel, these angles follow a pattern. In this lesson you learn the pattern and use it to find missing angles.</p>
+<div class="objectives">
+<ul class="task-list">
+<li><label><input type="checkbox">I can tell parallel, perpendicular, and skew lines apart.</label></li>
+<li><label><input type="checkbox">I can name the pairs of angles made by a transversal.</label></li>
+<li><label><input type="checkbox">I can find angles when parallel lines are cut by a transversal.</label></li>
+<li><label><input type="checkbox">I can use angle measures to decide if two lines are parallel.</label></li>
+</ul>
+</div>
+<div class="vocab">
+<p><a href="../../glossary.html#glossary-parallel" class="glossary-link" data-slug="parallel" data-original-href="#glossary-parallel" data-term="parallel">parallel</a>, <a href="../../glossary.html#glossary-perpendicular" class="glossary-link" data-slug="perpendicular" data-original-href="#glossary-perpendicular" data-term="perpendicular">perpendicular</a>, <a href="../../glossary.html#glossary-skew" class="glossary-link" data-slug="skew" data-original-href="#glossary-skew" data-term="skew">skew</a>, <a href="../../glossary.html#glossary-transversal" class="glossary-link" data-slug="transversal" data-original-href="#glossary-transversal" data-term="transversal">transversal</a>, <a href="../../glossary.html#glossary-corresponding-angles" class="glossary-link" data-slug="corresponding-angles" data-original-href="#glossary-corresponding-angles" data-term="corresponding angles">corresponding angles</a>, <a href="../../glossary.html#glossary-alternate-interior-angles" class="glossary-link" data-slug="alternate-interior-angles" data-original-href="#glossary-alternate-interior-angles" data-term="alternate interior angles">alternate interior angles</a>, <a href="../../glossary.html#glossary-alternate-exterior-angles" class="glossary-link" data-slug="alternate-exterior-angles" data-original-href="#glossary-alternate-exterior-angles" data-term="alternate exterior angles">alternate exterior angles</a>, <a href="../../glossary.html#glossary-same-side-interior-angles" class="glossary-link" data-slug="same-side-interior-angles" data-original-href="#glossary-same-side-interior-angles" data-term="same-side interior angles">same-side interior angles</a></p>
+</div>
+<div class="guided-notes-link">
+<p><a href="../../guided_notes/Unit_1/1.4_Parallel_Lines_and_Transversals.html" target="_blank">Printable Guided Notes for this lesson</a> (fill-in notes to print and write on)</p>
+</div>
+<section id="warmup" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="warmup">🔥 Warm Up</h2>
+<ol type="1">
+<li><p>Two angles are a linear pair. One measures <span class="math inline">\(65^\circ\)</span>. Find the other.</p></li>
+<li><p>Solve <span class="math inline">\(4x + 6 = 6x - 24\)</span>.</p></li>
+<li><p>Solve <span class="math inline">\((3x - 5) + (2x + 20) = 180\)</span>.</p></li>
+</ol>
+</section>
+<section id="learn" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="learn">👥 Learn Together</h2>
+<section id="parallel-perpendicular-and-skew-lines" class="level3">
+<h3 class="anchored" data-anchor-id="parallel-perpendicular-and-skew-lines">1.4.1 - Parallel, Perpendicular, and Skew Lines</h3>
+<p><strong>Parallel lines</strong> are in the same plane and never meet. We write <span class="math inline">\(\ell \parallel m\)</span>. Matching arrows on a figure show that lines are parallel.</p>
+<p><strong>Perpendicular lines</strong> cross to make right angles. We write <span class="math inline">\(p \perp q\)</span>. A small square shows the right angle.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/Unit_1/1.4_par_perp.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="520"></p>
+</figure>
+</div>
+<p><strong>Skew lines</strong> are in space, not in one plane. They do not meet, and they are not parallel. A box shows them well.</p>
+<p><strong>Example 1:</strong> Lines on a box</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/Unit_1/1.4_box.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="380"></p>
+</figure>
+</div>
+<p>Each edge of the box is part of a line.</p>
+<ol type="a">
+<li><p>Name an edge parallel to <span class="math inline">\(\overline{AB}\)</span>.</p>
+<p><span class="math inline">\(\overline{DC}\)</span>. (Also <span class="math inline">\(\overline{EF}\)</span> and <span class="math inline">\(\overline{HG}\)</span>.) They go in the same direction and never meet.</p></li>
+<li><p>Name an edge perpendicular to <span class="math inline">\(\overline{AB}\)</span>.</p>
+<p><span class="math inline">\(\overline{AD}\)</span>. (Also <span class="math inline">\(\overline{BC}\)</span>.) They meet at a right angle.</p></li>
+<li><p>Name an edge skew to <span class="math inline">\(\overline{AB}\)</span>.</p>
+<p><span class="math inline">\(\overline{CG}\)</span>. It does not meet <span class="math inline">\(\overline{AB}\)</span>, and it does not go in the same direction.</p></li>
+</ol>
+<div class="you-try-m" title="Use the box in Example 1">
+<ol type="a">
+<li><p>Name an edge parallel to <span class="math inline">\(\overline{AD}\)</span>.</p></li>
+<li><p>Name an edge skew to <span class="math inline">\(\overline{BC}\)</span>.</p></li>
+</ol>
+</div>
+<div class="answer" title="Answer">
+<ol type="a">
+<li><p><span class="math inline">\(\overline{BC}\)</span>. (Also <span class="math inline">\(\overline{EH}\)</span> and <span class="math inline">\(\overline{FG}\)</span>.)</p></li>
+<li><p><span class="math inline">\(\overline{AE}\)</span>. (Also <span class="math inline">\(\overline{DH}\)</span>, <span class="math inline">\(\overline{EF}\)</span>, and <span class="math inline">\(\overline{HG}\)</span>.)</p></li>
+</ol>
+</div>
+<hr>
+<p><strong>On the coordinate plane.</strong> On a grid, two lines are parallel when they go up and over by the same amount. They have the same slope.</p>
+<p><strong>Example 2:</strong> Parallel on a grid</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/Unit_1/1.4_grid.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="300"></p>
+</figure>
+</div>
+<p>Are <span class="math inline">\(\overleftrightarrow{AB}\)</span> and <span class="math inline">\(\overleftrightarrow{CD}\)</span> parallel? <span class="math inline">\(A(1, 1)\)</span>, <span class="math inline">\(B(5, 3)\)</span>, <span class="math inline">\(C(1, 4)\)</span>, <span class="math inline">\(D(5, 6)\)</span>.</p>
+<p>Slope of <span class="math inline">\(\overleftrightarrow{AB}\)</span>: <span class="math inline">\(\dfrac{3 - 1}{5 - 1} = \dfrac{2}{4} = \dfrac{1}{2}\)</span>.</p>
+<p>Slope of <span class="math inline">\(\overleftrightarrow{CD}\)</span>: <span class="math inline">\(\dfrac{6 - 4}{5 - 1} = \dfrac{2}{4} = \dfrac{1}{2}\)</span>.</p>
+<p>The slopes are equal, so the lines are parallel.</p>
+<div class="you-try-m" title="Parallel on a grid">
+<p><span class="math inline">\(J(0, 2)\)</span>, <span class="math inline">\(K(4, 4)\)</span>, <span class="math inline">\(L(1, 0)\)</span>, <span class="math inline">\(M(4, 3)\)</span>. Are <span class="math inline">\(\overleftrightarrow{JK}\)</span> and <span class="math inline">\(\overleftrightarrow{LM}\)</span> parallel?</p>
+</div>
+<div class="answer" title="Answer">
+<p>Slope of <span class="math inline">\(\overleftrightarrow{JK}\)</span> is <span class="math inline">\(\frac{2}{4} = \frac{1}{2}\)</span>. Slope of <span class="math inline">\(\overleftrightarrow{LM}\)</span> is <span class="math inline">\(\frac{3}{3} = 1\)</span>. The slopes are different, so the lines are <strong>not</strong> parallel.</p>
+</div>
+<hr>
+</section>
+<section id="angles-made-by-a-transversal" class="level3">
+<h3 class="anchored" data-anchor-id="angles-made-by-a-transversal">1.4.2 - Angles Made by a Transversal</h3>
+<p>A <strong>transversal</strong> is a line that crosses two or more other lines. In the figure, line <span class="math inline">\(t\)</span> is a transversal of lines <span class="math inline">\(\ell\)</span> and <span class="math inline">\(m\)</span>. It makes eight angles.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/Unit_1/1.4_eight.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="420"></p>
+</figure>
+</div>
+<p>Angles <strong>between</strong> <span class="math inline">\(\ell\)</span> and <span class="math inline">\(m\)</span> are <strong>interior</strong>. Angles <strong>outside</strong> are <strong>exterior</strong>. These are the four kinds of pairs.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/Unit_1/1.4_pairs.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="480"></p>
+</figure>
+</div>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Pair</th>
+<th style="text-align: left;">Where they are</th>
+<th style="text-align: left;">Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>corresponding</strong></td>
+<td style="text-align: left;">same position at each crossing</td>
+<td style="text-align: left;"><span class="math inline">\(\angle 1\)</span> and <span class="math inline">\(\angle 5\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>alternate interior</strong></td>
+<td style="text-align: left;">between the lines, opposite sides of <span class="math inline">\(t\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\angle 3\)</span> and <span class="math inline">\(\angle 6\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>alternate exterior</strong></td>
+<td style="text-align: left;">outside the lines, opposite sides of <span class="math inline">\(t\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\angle 1\)</span> and <span class="math inline">\(\angle 8\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>same-side interior</strong></td>
+<td style="text-align: left;">between the lines, same side of <span class="math inline">\(t\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\angle 3\)</span> and <span class="math inline">\(\angle 5\)</span></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example 3:</strong> Name the pair</p>
+<p>Use the figure above.</p>
+<ol type="a">
+<li><p><span class="math inline">\(\angle 2\)</span> and <span class="math inline">\(\angle 6\)</span>: both are in the upper right position. They are <strong>corresponding</strong>.</p></li>
+<li><p><span class="math inline">\(\angle 4\)</span> and <span class="math inline">\(\angle 6\)</span>: both are between the lines, on the right side of <span class="math inline">\(t\)</span>. They are <strong>same-side interior</strong>.</p></li>
+</ol>
+<div class="you-try-m" title="Name the pair">
+<ol type="a">
+<li><p><span class="math inline">\(\angle 2\)</span> and <span class="math inline">\(\angle 7\)</span></p></li>
+<li><p><span class="math inline">\(\angle 3\)</span> and <span class="math inline">\(\angle 7\)</span></p></li>
+<li><p><span class="math inline">\(\angle 4\)</span> and <span class="math inline">\(\angle 5\)</span></p></li>
+</ol>
+</div>
+<div class="answer" title="Answer">
+<ol type="a">
+<li><p>alternate exterior</p></li>
+<li><p>corresponding</p></li>
+<li><p>alternate interior</p></li>
+</ol>
+</div>
+<hr>
+</section>
+<section id="parallel-lines-and-the-eight-angles" class="level3">
+<h3 class="anchored" data-anchor-id="parallel-lines-and-the-eight-angles">1.4.3 - Parallel Lines and the Eight Angles</h3>
+<div class="remember" title="When the lines are parallel">
+<p>If <span class="math inline">\(\ell \parallel m\)</span>, then:</p>
+<ul>
+<li>corresponding angles are <strong>equal</strong></li>
+<li>alternate interior angles are <strong>equal</strong></li>
+<li>alternate exterior angles are <strong>equal</strong></li>
+<li>same-side interior angles are <strong>supplementary</strong> (they add to <span class="math inline">\(180^\circ\)</span>)</li>
+</ul>
+</div>
+<p><strong>Example 4:</strong> Find all eight angles</p>
+<p><span class="math inline">\(\ell \parallel m\)</span> in the figure above, and <span class="math inline">\(m\angle 1 = 115^\circ\)</span>. Find the other seven angles.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Angle</th>
+<th style="text-align: center;">Measure</th>
+<th style="text-align: left;">Reason</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(\angle 2\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(65^\circ\)</span></td>
+<td style="text-align: left;">linear pair with <span class="math inline">\(\angle 1\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(\angle 3\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(65^\circ\)</span></td>
+<td style="text-align: left;">vertical to <span class="math inline">\(\angle 2\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(\angle 4\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(115^\circ\)</span></td>
+<td style="text-align: left;">vertical to <span class="math inline">\(\angle 1\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(\angle 5\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(115^\circ\)</span></td>
+<td style="text-align: left;">corresponding to <span class="math inline">\(\angle 1\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(\angle 6\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(65^\circ\)</span></td>
+<td style="text-align: left;">corresponding to <span class="math inline">\(\angle 2\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(\angle 7\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(65^\circ\)</span></td>
+<td style="text-align: left;">vertical to <span class="math inline">\(\angle 6\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(\angle 8\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(115^\circ\)</span></td>
+<td style="text-align: left;">vertical to <span class="math inline">\(\angle 5\)</span></td>
+</tr>
+</tbody>
+</table>
+<p>Every angle is either <span class="math inline">\(115^\circ\)</span> or <span class="math inline">\(65^\circ\)</span>. The two numbers add to <span class="math inline">\(180^\circ\)</span>.</p>
+<div class="you-try-m" title="Parallel lines and a transversal">
+<p>Two parallel lines are cut by a transversal. One angle is <span class="math inline">\(48^\circ\)</span>. How many of the eight angles measure <span class="math inline">\(48^\circ\)</span>? What do the others measure?</p>
+</div>
+<div class="answer" title="Answer">
+<p>Four angles measure <span class="math inline">\(48^\circ\)</span>. The other four measure <span class="math inline">\(180 - 48 = 132^\circ\)</span>.</p>
+</div>
+<hr>
+<p><strong>Example 5:</strong> Corresponding angles</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/Unit_1/1.4_solve1.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="380"></p>
+</figure>
+</div>
+<p><span class="math inline">\(\ell \parallel m\)</span>. Find <span class="math inline">\(x\)</span> and the angles.</p>
+<p>The marked angles are corresponding, so they are equal.</p>
+<p><span class="math display">\[
+4x + 6 = 6x - 24 \quad\text{so}\quad 30 = 2x \quad\text{so}\quad x = 15
+\]</span></p>
+<p>Each angle is <span class="math inline">\(4(15) + 6 = 66^\circ\)</span>. Check: <span class="math inline">\(6(15) - 24 = 66\)</span>.</p>
+<p><strong>Example 6:</strong> Same-side interior angles</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/Unit_1/1.4_solve2.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="380"></p>
+</figure>
+</div>
+<p><span class="math inline">\(\ell \parallel m\)</span>. Find <span class="math inline">\(x\)</span> and the angles.</p>
+<p>The marked angles are same-side interior, so they add to <span class="math inline">\(180^\circ\)</span>.</p>
+<p><span class="math display">\[
+(3x - 5) + (2x + 20) = 180 \quad\text{so}\quad 5x + 15 = 180 \quad\text{so}\quad x = 33
+\]</span></p>
+<p>The angles are <span class="math inline">\(3(33) - 5 = 94^\circ\)</span> and <span class="math inline">\(2(33) + 20 = 86^\circ\)</span>. Check: <span class="math inline">\(94 + 86 = 180\)</span>.</p>
+<div class="you-try-m" title="Solve for $x$">
+<p><span class="math inline">\(\ell \parallel m\)</span>.</p>
+<ol type="a">
+<li><p>Alternate interior angles measure <span class="math inline">\((2x + 25)^\circ\)</span> and <span class="math inline">\((3x - 5)^\circ\)</span>. Find <span class="math inline">\(x\)</span> and the angles.</p></li>
+<li><p>Same-side interior angles measure <span class="math inline">\((4x + 2)^\circ\)</span> and <span class="math inline">\((2x + 16)^\circ\)</span>. Find <span class="math inline">\(x\)</span> and the angles.</p></li>
+</ol>
+</div>
+<div class="answer" title="Answer">
+<ol type="a">
+<li><p>They are equal. <span class="math inline">\(2x + 25 = 3x - 5\)</span>, so <span class="math inline">\(x = 30\)</span>. Each angle is <span class="math inline">\(85^\circ\)</span>.</p></li>
+<li><p>They add to <span class="math inline">\(180\)</span>. <span class="math inline">\(6x + 18 = 180\)</span>, so <span class="math inline">\(x = 27\)</span>. The angles are <span class="math inline">\(110^\circ\)</span> and <span class="math inline">\(70^\circ\)</span>.</p></li>
+</ol>
+</div>
+<hr>
+</section>
+<section id="are-the-lines-parallel" class="level3">
+<h3 class="anchored" data-anchor-id="are-the-lines-parallel">1.4.4 - Are the Lines Parallel?</h3>
+<p>The rules also work backward. If a transversal makes <strong>equal corresponding angles</strong>, the lines are parallel. The same is true for equal alternate interior angles, equal alternate exterior angles, and same-side interior angles that add to <span class="math inline">\(180^\circ\)</span>.</p>
+<p><strong>Example 7:</strong> Use angles to decide</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/Unit_1/1.4_converse.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="420"></p>
+</figure>
+</div>
+<p>The lines look parallel. The marked angles are corresponding. Are <span class="math inline">\(\ell\)</span> and <span class="math inline">\(m\)</span> parallel?</p>
+<p><span class="math inline">\(88^\circ \ne 92^\circ\)</span>. The corresponding angles are not equal, so the lines are <strong>not</strong> parallel.</p>
+<p>(The picture is drawn to scale. The bottom line leans just <span class="math inline">\(4^\circ\)</span>.)</p>
+<p><strong>Example 8:</strong> Looks or marks?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/Unit_1/1.4_looks.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="420"></p>
+</figure>
+</div>
+<p>Are <span class="math inline">\(\ell\)</span> and <span class="math inline">\(m\)</span> parallel?</p>
+<p>We cannot tell. There are no arrow marks and no angle measures. A drawing that only looks parallel is not enough.</p>
+<div class="you-try-m" title="Are the lines parallel?">
+<ol type="a">
+<li><p>A transversal makes same-side interior angles of <span class="math inline">\(104^\circ\)</span> and <span class="math inline">\(76^\circ\)</span>.</p></li>
+<li><p>A transversal makes alternate interior angles of <span class="math inline">\(65^\circ\)</span> and <span class="math inline">\(115^\circ\)</span>.</p></li>
+</ol>
+</div>
+<div class="answer" title="Answer">
+<ol type="a">
+<li><p><span class="math inline">\(104 + 76 = 180\)</span>, so the lines <strong>are</strong> parallel.</p></li>
+<li><p><span class="math inline">\(65 \ne 115\)</span>, so the lines are <strong>not</strong> parallel.</p></li>
+</ol>
+</div>
+</section>
+</section>
+<section id="practice" class="level2 unnumbered pagebreak-before">
+<h2 class="unnumbered pagebreak-before anchored" data-anchor-id="practice">✍️ Practice On Your Own</h2>
+<p><strong>Parallel, perpendicular, and skew.</strong> Use the box in Example 1 for problems 1 to 3.</p>
+<ol type="1">
+<li><p>Name an edge parallel to <span class="math inline">\(\overline{AE}\)</span>.</p></li>
+<li><p>Name an edge perpendicular to <span class="math inline">\(\overline{DC}\)</span>.</p></li>
+<li><p>Name an edge skew to <span class="math inline">\(\overline{DC}\)</span>.</p></li>
+</ol>
+<hr>
+<p><strong>On the coordinate plane.</strong> Decide if the lines are parallel, perpendicular, or neither.</p>
+<ol start="4" type="1">
+<li><p>The line through <span class="math inline">\((0, 0)\)</span> and <span class="math inline">\((6, 2)\)</span>, and the line through <span class="math inline">\((0, -3)\)</span> and <span class="math inline">\((6, -1)\)</span>.</p></li>
+<li><p>The line through <span class="math inline">\((0, 0)\)</span> and <span class="math inline">\((3, 6)\)</span>, and the line through <span class="math inline">\((0, 0)\)</span> and <span class="math inline">\((-4, 2)\)</span>.</p></li>
+<li><p>The line through <span class="math inline">\((1, 2)\)</span> and <span class="math inline">\((5, 8)\)</span>, and the line through <span class="math inline">\((2, 4)\)</span> and <span class="math inline">\((6, 9)\)</span>.</p></li>
+</ol>
+<hr>
+<p><strong>Name the pair.</strong> Use the figure for problems 7 to 12.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/Unit_1/1.4_p_eight.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="420"></p>
+</figure>
+</div>
+<ol start="7" type="1">
+<li><p><span class="math inline">\(\angle 4\)</span> and <span class="math inline">\(\angle 8\)</span></p></li>
+<li><p><span class="math inline">\(\angle 2\)</span> and <span class="math inline">\(\angle 7\)</span></p></li>
+<li><p><span class="math inline">\(\angle 4\)</span> and <span class="math inline">\(\angle 5\)</span></p></li>
+<li><p><span class="math inline">\(\angle 3\)</span> and <span class="math inline">\(\angle 5\)</span></p></li>
+</ol>
+<hr>
+<p><strong>Find the angles.</strong> <span class="math inline">\(\ell \parallel m\)</span> in the figure above.</p>
+<ol start="11" type="1">
+<li><p><span class="math inline">\(m\angle 1 = 128^\circ\)</span>. Find <span class="math inline">\(m\angle 5\)</span>, <span class="math inline">\(m\angle 6\)</span>, and <span class="math inline">\(m\angle 3\)</span>.</p></li>
+<li><p><span class="math inline">\(m\angle 7 = 52^\circ\)</span>. Find <span class="math inline">\(m\angle 2\)</span>, <span class="math inline">\(m\angle 4\)</span>, and <span class="math inline">\(m\angle 8\)</span>.</p></li>
+</ol>
+<hr>
+<p><strong>Solve for <span class="math inline">\(x\)</span>.</strong> <span class="math inline">\(\ell \parallel m\)</span>.</p>
+<ol start="13" type="1">
+<li><p>Alternate interior angles measure <span class="math inline">\((5x - 8)^\circ\)</span> and <span class="math inline">\((3x + 14)^\circ\)</span>.</p></li>
+<li><p>Corresponding angles measure <span class="math inline">\((8x - 3)^\circ\)</span> and <span class="math inline">\((6x + 17)^\circ\)</span>.</p></li>
+<li><p>Same-side interior angles measure <span class="math inline">\((7x + 4)^\circ\)</span> and <span class="math inline">\((3x + 6)^\circ\)</span>.</p></li>
+<li><p>Alternate exterior angles measure <span class="math inline">\((3x + 12)^\circ\)</span> and <span class="math inline">\((5x - 18)^\circ\)</span>.</p></li>
+<li><p>In the figure above, <span class="math inline">\(m\angle 2 = (4x + 8)^\circ\)</span>, <span class="math inline">\(m\angle 6 = (6x - 14)^\circ\)</span>, and <span class="math inline">\(m\angle 4 = (3y + 2)^\circ\)</span>. Find <span class="math inline">\(x\)</span>, <span class="math inline">\(y\)</span>, and the three angles.</p></li>
+</ol>
+<hr>
+<p><strong>Real problems.</strong></p>
+<ol start="18" type="1">
+<li><p>A diagonal avenue crosses two parallel streets, Oak St and Elm St.&nbsp;The avenue makes a <span class="math inline">\(38^\circ\)</span> angle with Oak St, as shown. Find the angles <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/Unit_1/1.4_p_street.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="420"></p>
+</figure>
+</div></li>
+<li><p>Two rails of a train track are parallel. A cable crosses both rails. One of the eight angles measures <span class="math inline">\(72^\circ\)</span>. Every angle is one of two numbers. What are they?</p></li>
+</ol>
+<hr>
+<p><strong>Find the mistake.</strong></p>
+<ol start="20" type="1">
+<li><span class="math inline">\(\ell \parallel m\)</span>. Ana has same-side interior angles <span class="math inline">\((2x + 10)^\circ\)</span> and <span class="math inline">\((3x - 5)^\circ\)</span>. She says same-side interior angles are equal, so <span class="math inline">\(2x + 10 = 3x - 5\)</span> and <span class="math inline">\(x = 15\)</span>. What did she do wrong? Find the correct <span class="math inline">\(x\)</span>.</li>
+</ol>
+<hr>
+<p><strong>Are the lines parallel?</strong></p>
+<ol start="21" type="1">
+<li><p>A transversal makes corresponding angles of <span class="math inline">\(74^\circ\)</span> and <span class="math inline">\(74^\circ\)</span>.</p></li>
+<li><p>A transversal makes alternate interior angles of <span class="math inline">\(65^\circ\)</span> and <span class="math inline">\(115^\circ\)</span>.</p></li>
+<li><p>Same-side interior angles measure <span class="math inline">\((3x + 10)^\circ\)</span> and <span class="math inline">\((2x + 20)^\circ\)</span>. Find <span class="math inline">\(x\)</span> so that the lines are parallel.</p></li>
+<li><p>Two lines in a drawing look parallel. No arrows and no angles are given. Can you say they are parallel? Explain.</p></li>
+</ol>
+<hr>
+<p><strong>Test practice</strong></p>
+<ol start="25" type="1">
+<li><p><span class="math inline">\(\ell \parallel m\)</span>. Alternate interior angles measure <span class="math inline">\((5x - 20)^\circ\)</span> and <span class="math inline">\((3x + 16)^\circ\)</span>. What is the measure of each angle?</p>
+<p>A. <span class="math inline">\(18^\circ\)</span><br>
+B. <span class="math inline">\(54^\circ\)</span><br>
+C. <span class="math inline">\(70^\circ\)</span><br>
+D. <span class="math inline">\(110^\circ\)</span></p></li>
+<li><p>Two parallel lines are cut by a transversal. Which statement must be true?</p>
+<p>A. Corresponding angles are supplementary.<br>
+B. Alternate interior angles are equal.<br>
+C. Same-side interior angles are equal.<br>
+D. Vertical angles are supplementary.</p></li>
+</ol>
+<hr>
+<p><strong>Challenge</strong></p>
+<ol start="27" type="1">
+<li><p>Two parallel lines are cut by a transversal. One of the eight angles is <span class="math inline">\(90^\circ\)</span>. What are the other seven? What does this tell you about the transversal?</p></li>
+<li><p>The line through <span class="math inline">\((0, 0)\)</span> and <span class="math inline">\((4, 3)\)</span> is given. Line <span class="math inline">\(n\)</span> goes through <span class="math inline">\((1, -1)\)</span>. Find a second point on <span class="math inline">\(n\)</span> so that <span class="math inline">\(n\)</span> is parallel to the given line. Then find a second point so that <span class="math inline">\(n\)</span> is perpendicular to it.</p></li>
+</ol>
+
+
+</section>
+
+</main> <!-- /main -->
+<script src="../../scripts/popper.min.js"></script>
+<script src="../../scripts/tippy.min.js"></script>
+<script src="../../scripts/glossary-tooltips.js"></script>
+<script src="../../scripts/custom-callouts.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../chapters/Unit_1/1.3_Complementary_Supplementary_and_Vertical_Angles.html" class="pagination-link" aria-label="1.3 - Complementary, Supplementary, and Vertical Angles">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">1.3 - Complementary, Supplementary, and Vertical Angles</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../chapters/Unit_1/1.5_Angles_in_Triangles_and_Polygons.html" class="pagination-link" aria-label="1.5 - Angles in Triangles and Polygons">
+        <span class="nav-page-text">1.5 - Angles in Triangles and Polygons</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
