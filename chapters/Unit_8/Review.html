@@ -1,0 +1,1313 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Unit 8 Review – DHS Geometry</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../guided-notes.html" rel="next">
+<link href="../../chapters/Unit_8/Summary.html" rel="prev">
+<link href="../../images/logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-859b66b35598d39ec8aae4cd3ab271c8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      packages: { '[+]': ['ams', 'color', 'cancel', 'html'] },
+      macros: {
+        stepnote: ['\\hbox{}\\hskip 1em\\class{stepnote}{\\textcolor{gray}{\\scriptsize\\hbox{#1}}}', 1],
+        steptag: ['\\stepnote{#1}', 1],
+        snboth: ['\\hbox{}\\hskip 1em\\class{stepnote}{\\textcolor{gray}{\\scriptsize\\hbox{$#1$ both sides}}}', 1],
+        snplus: ['\\snboth{+\\,#1}', 1],
+        snminus: ['\\snboth{-\\,#1}', 1],
+        sntimes: ['\\snboth{\\times\\,#1}', 1],
+        sndiv: ['\\snboth{\\div\\,#1}', 1]
+      }},
+    chtml: { mtextInheritFont: true }
+    };
+</script>
+
+<script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles/custom-callouts.css">
+<link rel="stylesheet" href="../../styles/custom-general.css">
+<link rel="stylesheet" href="../../styles/glossary-tooltips.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">DHS Geometry</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-end">
+</div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../chapters/Unit_8/index.html">Unit 8: Area, Surface Area, and Volume</a></li><li class="breadcrumb-item"><a href="../../chapters/Unit_8/Review.html">Unit 8 Review</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Welcome to Geometry</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 1: Lines, Angles, and Equations</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/1.1_Points_Lines_Segments_and_Angles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.1 - Points, Lines, Segments, and Angles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/1.2_Segment_and_Angle_Addition.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.2 - Segment and Angle Addition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/1.3_Complementary_Supplementary_and_Vertical_Angles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.3 - Complementary, Supplementary, and Vertical Angles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/1.4_Parallel_Lines_and_Transversals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.4 - Parallel Lines and Transversals</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/1.5_Angles_in_Triangles_and_Polygons.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.5 - Angles in Triangles and Polygons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/Summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 1 Summary</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 1 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 2: The Pythagorean Theorem and the Coordinate Plane</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.1_Square_Roots_and_Simplifying_Radicals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.1 - Square Roots and Simplifying Radicals</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.2_The_Pythagorean_Theorem_and_Its_Converse.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.2 - The Pythagorean Theorem and Its Converse</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.3_The_Pythagorean_Theorem_in_the_Real_World.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.3 - The Pythagorean Theorem in the Real World</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.4_Distance_on_the_Coordinate_Plane.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.4 - Distance on the Coordinate Plane</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.5_Midpoint.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.5 - Midpoint</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.6_Slope_Parallel_Lines_and_Perpendicular_Lines.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.6 - Slope, Parallel Lines, and Perpendicular Lines</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.7_Dividing_a_Segment_in_a_Ratio.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.7 - Dividing a Segment in a Ratio</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.8_Perimeter_and_Area_on_the_Coordinate_Plane.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.8 - Perimeter and Area on the Coordinate Plane</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.9_Checking_Shapes_with_Coordinates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.9 - Checking Shapes with Coordinates</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/Summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 2 Summary</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 2 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 3: Transformations</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/3.1_Translations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3.1 - Translations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/3.2_Reflections.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3.2 - Reflections</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/3.3_Rotations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3.3 - Rotations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/3.4_Dilations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3.4 - Dilations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/3.5_Sequences_of_Transformations_and_Symmetry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3.5 - Sequences of Transformations and Symmetry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/Summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 3 Summary</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 3 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 4: Congruence</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_4/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_4/4.1_Congruent_Figures_and_Rigid_Motions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.1 - Congruent Figures and Rigid Motions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_4/4.2_Triangle_Congruence.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.2 - Triangle Congruence: SSS, SAS, ASA, AAS, and HL</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_4/4.3_Isosceles_and_Equilateral_Triangles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.3 - Isosceles and Equilateral Triangles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_4/4.4_Quadrilaterals_and_Their_Properties.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.4 - Quadrilaterals and Their Properties</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_4/4.5_Constructions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.5 - Constructions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_4/Summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 4 Summary</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_4/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 4 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 5: Similarity</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_5/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_5/5.1_Ratios_and_Proportions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5.1 - Ratios and Proportions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_5/5.2_Similar_Figures_and_Scale_Factor.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5.2 - Similar Figures and Scale Factor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_5/5.3_Similar_Triangles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5.3 - Similar Triangles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_5/5.4_Triangle_Proportionality.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5.4 - Triangle Proportionality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_5/5.5_Indirect_Measurement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5.5 - Indirect Measurement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_5/Summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 5 Summary</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_5/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 5 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 6: Right Triangle Trigonometry</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/6.1_Special_Right_Triangles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.1 - Special Right Triangles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/6.2_The_Trigonometric_Ratios.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.2 - The Trigonometric Ratios</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/6.3_Solving_for_a_Side.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.3 - Solving for a Side</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/6.4_Solving_for_an_Angle.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.4 - Solving for an Angle</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/6.5_Sine_and_Cosine_of_Complementary_Angles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.5 - Sine and Cosine of Complementary Angles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/6.6_Angles_of_Elevation_and_Depression.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.6 - Angles of Elevation and Depression</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/6.7_Modeling_with_Right_Triangles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.7 - Modeling with Right Triangles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/Summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 6 Summary</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 6 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 7: Circles</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_7/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_7/7.1_Circumference_and_Arc_Length.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7.1 - Circumference and Arc Length</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_7/7.2_Area_of_Circles_and_Sectors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7.2 - Area of Circles and Sectors</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_7/7.3_Radians.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7.3 - Radians</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_7/7.4_Inscribed_Angles_and_Tangents.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7.4 - Inscribed Angles and Tangents</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_7/7.5_The_Equation_of_a_Circle.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7.5 - The Equation of a Circle</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_7/Summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 7 Summary</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_7/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 7 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true">
+ <span class="menu-text">Unit 8: Area, Surface Area, and Volume</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_8/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_8/8.1_Area_of_Polygons_and_Composite_Figures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8.1 - Area of Polygons and Composite Figures</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_8/8.2_Cross_Sections_and_Solids_of_Revolution.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8.2 - Cross Sections and Solids of Revolution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_8/8.3_Surface_Area_and_Nets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8.3 - Surface Area and Nets</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_8/8.4_Volume_of_Prisms_and_Cylinders.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8.4 - Volume of Prisms and Cylinders</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_8/8.5_Volume_of_Pyramids_Cones_and_Spheres.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8.5 - Volume of Pyramids, Cones, and Spheres</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_8/8.6_Density_and_Modeling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8.6 - Density and Modeling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_8/Summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 8 Summary</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_8/Review.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Unit 8 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guided-notes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Printable Guided Notes</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glossary</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#learn" id="toc-learn" class="nav-link active" data-scroll-target="#learn">👥 Learn Together</a>
+  <ul class="collapse">
+  <li><a href="#area-of-polygons-and-composite-figures" id="toc-area-of-polygons-and-composite-figures" class="nav-link" data-scroll-target="#area-of-polygons-and-composite-figures">8.1 - Area of Polygons and Composite Figures</a></li>
+  <li><a href="#cross-sections-and-solids-of-revolution" id="toc-cross-sections-and-solids-of-revolution" class="nav-link" data-scroll-target="#cross-sections-and-solids-of-revolution">8.2 - Cross Sections and Solids of Revolution</a></li>
+  <li><a href="#surface-area-and-nets" id="toc-surface-area-and-nets" class="nav-link" data-scroll-target="#surface-area-and-nets">8.3 - Surface Area and Nets</a></li>
+  <li><a href="#volume-of-prisms-and-cylinders" id="toc-volume-of-prisms-and-cylinders" class="nav-link" data-scroll-target="#volume-of-prisms-and-cylinders">8.4 - Volume of Prisms and Cylinders</a></li>
+  <li><a href="#volume-of-pyramids-cones-and-spheres" id="toc-volume-of-pyramids-cones-and-spheres" class="nav-link" data-scroll-target="#volume-of-pyramids-cones-and-spheres">8.5 - Volume of Pyramids, Cones, and Spheres</a></li>
+  <li><a href="#density-and-modeling" id="toc-density-and-modeling" class="nav-link" data-scroll-target="#density-and-modeling">8.6 - Density and Modeling</a></li>
+  </ul></li>
+  <li><a href="#practice" id="toc-practice" class="nav-link" data-scroll-target="#practice">✍️ Practice On Your Own</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../chapters/Unit_8/index.html">Unit 8: Area, Surface Area, and Volume</a></li><li class="breadcrumb-item"><a href="../../chapters/Unit_8/Review.html">Unit 8 Review</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Unit 8 Review</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="guided-notes-link">
+<p><a href="../../guided_notes/Unit_8/Unit_8_Review.html" target="_blank">Printable Unit 8 Review</a> (fill-in review to print and write on)</p>
+</div>
+<section id="learn" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="learn">👥 Learn Together</h2>
+<section id="area-of-polygons-and-composite-figures" class="level3">
+<h3 class="anchored" data-anchor-id="area-of-polygons-and-composite-figures">8.1 - Area of Polygons and Composite Figures</h3>
+<p><strong>Example 1:</strong> A regular hexagon has sides of <span class="math inline">\(6\)</span> in. Find its area. Give the exact answer and a decimal rounded to the nearest tenth.</p>
+<p>The apothem is the long leg of a <span class="math inline">\(30^\circ\)</span>-<span class="math inline">\(60^\circ\)</span>-<span class="math inline">\(90^\circ\)</span> triangle with short leg <span class="math inline">\(3\)</span>, so <span class="math inline">\(a = 3\sqrt{3}\)</span>. The perimeter is <span class="math inline">\(36\)</span>. <span class="math inline">\(A = \dfrac{1}{2}aP = \dfrac{1}{2}(3\sqrt{3})(36) = 54\sqrt{3} \approx 93.5\)</span> square inches.</p>
+</section>
+<section id="cross-sections-and-solids-of-revolution" class="level3">
+<h3 class="anchored" data-anchor-id="cross-sections-and-solids-of-revolution">8.2 - Cross Sections and Solids of Revolution</h3>
+<p><strong>Example 2:</strong> A solid has <span class="math inline">\(8\)</span> faces and <span class="math inline">\(12\)</span> vertices. How many edges does it have?</p>
+<p>Euler’s formula: <span class="math inline">\(F + V - E = 2\)</span>. So <span class="math inline">\(8 + 12 - E = 2\)</span> and <span class="math inline">\(E = 18\)</span>.</p>
+</section>
+<section id="surface-area-and-nets" class="level3">
+<h3 class="anchored" data-anchor-id="surface-area-and-nets">8.3 - Surface Area and Nets</h3>
+<p><strong>Example 3:</strong> A cylinder has radius <span class="math inline">\(5\)</span> ft and height <span class="math inline">\(12\)</span> ft. Find its surface area. Give the exact answer and a decimal rounded to the nearest tenth.</p>
+<p><span class="math inline">\(SA = 2\pi r^2 + 2\pi r h = 2\pi(25) + 2\pi(5)(12) = 50\pi + 120\pi = 170\pi \approx 534.1\)</span> square feet.</p>
+</section>
+<section id="volume-of-prisms-and-cylinders" class="level3">
+<h3 class="anchored" data-anchor-id="volume-of-prisms-and-cylinders">8.4 - Volume of Prisms and Cylinders</h3>
+<p><strong>Example 4:</strong> A tank is <span class="math inline">\(20\)</span> ft by <span class="math inline">\(12\)</span> ft by <span class="math inline">\(5\)</span> ft. Find its volume in cubic feet and in cubic yards. Round the yards to the nearest tenth.</p>
+<p><span class="math inline">\(V = 20 \cdot 12 \cdot 5 = 1200\)</span> ft<span class="math inline">\(^3\)</span>. <span class="math inline">\(1200 \div 27 \approx 44.4\)</span> yd<span class="math inline">\(^3\)</span>.</p>
+</section>
+<section id="volume-of-pyramids-cones-and-spheres" class="level3">
+<h3 class="anchored" data-anchor-id="volume-of-pyramids-cones-and-spheres">8.5 - Volume of Pyramids, Cones, and Spheres</h3>
+<p><strong>Example 5:</strong> A cone has radius <span class="math inline">\(6\)</span> and slant height <span class="math inline">\(10\)</span>. Find its volume. Give the exact answer and a decimal rounded to the nearest tenth.</p>
+<p><span class="math inline">\(h = \sqrt{10^2 - 6^2} = 8\)</span>. <span class="math inline">\(V = \dfrac{1}{3}\pi(36)(8) = 96\pi \approx 301.6\)</span> cubic units.</p>
+</section>
+<section id="density-and-modeling" class="level3">
+<h3 class="anchored" data-anchor-id="density-and-modeling">8.6 - Density and Modeling</h3>
+<p><strong>Example 6:</strong> A model tank is <span class="math inline">\(\dfrac{1}{10}\)</span> of the size of a real tank. The real tank holds <span class="math inline">\(5000\)</span> gallons. How much does the model hold?</p>
+<p>Volume scales by <span class="math inline">\(k^3 = \left(\dfrac{1}{10}\right)^3 = \dfrac{1}{1000}\)</span>. The model holds <span class="math inline">\(5000 \div 1000 = 5\)</span> gallons.</p>
+</section>
+</section>
+<section id="practice" class="level2 unnumbered pagebreak-before">
+<h2 class="unnumbered pagebreak-before anchored" data-anchor-id="practice">✍️ Practice On Your Own</h2>
+<p><strong>8.1 - I can find the area of polygons and composite figures.</strong></p>
+<ol type="1">
+<li><p>A parallelogram has a base of <span class="math inline">\(14\)</span> cm and a height of <span class="math inline">\(9\)</span> cm. Find its area.</p></li>
+<li><p>A triangle has vertices <span class="math inline">\((1, 1)\)</span>, <span class="math inline">\((9, 1)\)</span> and <span class="math inline">\((5, 7)\)</span>. Find its area in square units.</p></li>
+<li><p>A trapezoid has bases <span class="math inline">\(11\)</span> in and <span class="math inline">\(17\)</span> in and a height of <span class="math inline">\(8\)</span> in. Find its area.</p></li>
+<li><p>A regular hexagon has sides of <span class="math inline">\(4\)</span> m and an apothem of about <span class="math inline">\(3.46\)</span> m. Find its area to the nearest tenth.</p></li>
+<li><p>A wall is <span class="math inline">\(20\)</span> ft wide and <span class="math inline">\(9\)</span> ft tall. It has a door <span class="math inline">\(3\)</span> ft by <span class="math inline">\(7\)</span> ft and a window <span class="math inline">\(4\)</span> ft by <span class="math inline">\(3\)</span> ft. One gallon of paint covers <span class="math inline">\(350\)</span> ft<span class="math inline">\(^2\)</span>. How much wall must be painted? How many whole gallons are needed?</p></li>
+<li><p>A triangle has an area of <span class="math inline">\(54\)</span> in<span class="math inline">\(^2\)</span> and a base of <span class="math inline">\(12\)</span> in. Find its height.</p></li>
+</ol>
+<p><strong>8.2 - I can name solids, describe cross sections, and spin shapes into solids.</strong></p>
+<ol start="7" type="1">
+<li><p>A pentagonal prism has <span class="math inline">\(7\)</span> faces and <span class="math inline">\(10\)</span> vertices. How many edges does it have? Check with <span class="math inline">\(F + V - E = 2\)</span>.</p></li>
+<li><p>A solid has <span class="math inline">\(6\)</span> faces and <span class="math inline">\(8\)</span> vertices. How many edges does it have?</p></li>
+<li><p>A plane cuts a square pyramid parallel to its base. What shape is the cross section?</p></li>
+<li><p>Name the cross section: (a) a plane through the axis of a cylinder, (b) any plane through the center of a sphere.</p></li>
+<li><p>A rectangle <span class="math inline">\(4\)</span> cm wide and <span class="math inline">\(7\)</span> cm tall spins about its <span class="math inline">\(7\)</span> cm side. Name the solid. Give its radius and height.</p></li>
+<li><p>A right triangle with legs <span class="math inline">\(5\)</span> and <span class="math inline">\(12\)</span> spins about the leg of length <span class="math inline">\(5\)</span>. Name the solid. Give its radius, height and slant height.</p></li>
+</ol>
+<p><strong>8.3 - I can find the surface area of solids.</strong></p>
+<ol start="13" type="1">
+<li><p>A box is <span class="math inline">\(9\)</span> m by <span class="math inline">\(4\)</span> m by <span class="math inline">\(3\)</span> m. Find its surface area.</p></li>
+<li><p>A triangular prism has a right-triangle base with legs <span class="math inline">\(6\)</span> and <span class="math inline">\(8\)</span> and hypotenuse <span class="math inline">\(10\)</span>. The prism is <span class="math inline">\(15\)</span> long. Find its surface area.</p></li>
+<li><p>A cylinder has radius <span class="math inline">\(3\)</span> ft and height <span class="math inline">\(10\)</span> ft. Find its surface area. Give the exact answer and a decimal rounded to the nearest tenth.</p></li>
+<li><p>A square pyramid has a base side of <span class="math inline">\(10\)</span> in and a slant height of <span class="math inline">\(13\)</span> in. Find its surface area.</p></li>
+<li><p>A cone has radius <span class="math inline">\(7\)</span> cm and slant height <span class="math inline">\(25\)</span> cm. Find its surface area. Give the exact answer and a decimal rounded to the nearest tenth.</p></li>
+<li><p>A sphere has a diameter of <span class="math inline">\(18\)</span> in. Find its surface area. Give the exact answer and a decimal rounded to the nearest tenth.</p></li>
+</ol>
+<p><strong>8.4 - I can find the volume of prisms and cylinders.</strong></p>
+<ol start="19" type="1">
+<li><p>A cylinder has a volume of <span class="math inline">\(245\pi\)</span> cm<span class="math inline">\(^3\)</span> and a radius of <span class="math inline">\(7\)</span> cm. Find its height.</p></li>
+<li><p>A triangular prism has a triangle base with base <span class="math inline">\(10\)</span> and height <span class="math inline">\(6\)</span>. The prism is <span class="math inline">\(9\)</span> long. Find its volume.</p></li>
+<li><p>A cylinder has radius <span class="math inline">\(4\)</span> m and height <span class="math inline">\(11\)</span> m. Find its volume. Give the exact answer and a decimal rounded to the nearest tenth.</p></li>
+<li><p>A slanted cylinder has radius <span class="math inline">\(5\)</span> in, a slant length of <span class="math inline">\(15\)</span> in and a vertical height of <span class="math inline">\(12\)</span> in. Find its volume. Give the exact answer and a decimal rounded to the nearest tenth.</p></li>
+<li><p>A concrete slab is <span class="math inline">\(24\)</span> ft by <span class="math inline">\(15\)</span> ft and <span class="math inline">\(6\)</span> in thick. Find its volume in cubic yards (<span class="math inline">\(27\)</span> ft<span class="math inline">\(^3\)</span> = <span class="math inline">\(1\)</span> yd<span class="math inline">\(^3\)</span>). Round up to the next whole yard for the order.</p></li>
+<li><p>A pool is <span class="math inline">\(30\)</span> ft by <span class="math inline">\(15\)</span> ft and the water is <span class="math inline">\(5\)</span> ft deep. How many gallons does it hold? Use <span class="math inline">\(1\)</span> ft<span class="math inline">\(^3 \approx 7.48\)</span> gallons.</p></li>
+</ol>
+<p><strong>8.5 - I can find the volume of pyramids, cones, spheres, and composite solids.</strong></p>
+<ol start="25" type="1">
+<li><p>A square pyramid has a base side of <span class="math inline">\(12\)</span> and a height of <span class="math inline">\(9\)</span>. Find its volume.</p></li>
+<li><p>A cone has radius <span class="math inline">\(9\)</span> cm and height <span class="math inline">\(10\)</span> cm. Find its volume. Give the exact answer and a decimal rounded to the nearest tenth.</p></li>
+<li><p>A square pyramid has a base side of <span class="math inline">\(16\)</span> and a slant height of <span class="math inline">\(17\)</span>. Find its height, then its volume.</p></li>
+<li><p>A sphere has radius <span class="math inline">\(6\)</span> in. Find its volume. Give the exact answer and a decimal rounded to the nearest tenth.</p></li>
+<li><p>A hemisphere has radius <span class="math inline">\(9\)</span> ft. Find its volume. Give the exact answer and a decimal rounded to the nearest tenth.</p></li>
+<li><p>A cylinder with radius <span class="math inline">\(3\)</span> and height <span class="math inline">\(8\)</span> has a cone on top with radius <span class="math inline">\(3\)</span> and height <span class="math inline">\(4\)</span>. Find the volume of the solid. Give the exact answer and a decimal rounded to the nearest tenth.</p></li>
+</ol>
+<p><strong>8.6 - I can use density, scale, and modeling to solve real problems.</strong></p>
+<ol start="31" type="1">
+<li><p>A concrete slab is <span class="math inline">\(20\)</span> ft by <span class="math inline">\(10\)</span> ft and <span class="math inline">\(4\)</span> in thick. Concrete weighs <span class="math inline">\(150\)</span> lb per cubic foot. Find the weight of the slab to the nearest pound.</p></li>
+<li><p>An object has a mass of <span class="math inline">\(360\)</span> g and a volume of <span class="math inline">\(400\)</span> cm<span class="math inline">\(^3\)</span>. Find its density. Does it float in water?</p></li>
+<li><p>A city has <span class="math inline">\(150{,}000\)</span> people in <span class="math inline">\(60\)</span> square miles. Find its population density.</p></li>
+<li><p>A small box has a volume of <span class="math inline">\(30\)</span> cm<span class="math inline">\(^3\)</span>. A similar box is <span class="math inline">\(4\)</span> times as long in every direction. Find the volume of the large box. By what factor does its surface area grow?</p></li>
+<li><p>A model ship is {{f 1/50}} of the size of the real ship. The real ship has a hull area of <span class="math inline">\(5000\)</span> ft<span class="math inline">\(^2\)</span> and a volume of <span class="math inline">\(200{,}000\)</span> ft<span class="math inline">\(^3\)</span>. Find the model’s hull area and volume.</p></li>
+<li><p>Two cans each hold <span class="math inline">\(300\)</span> cm<span class="math inline">\(^3\)</span>. Can A has radius <span class="math inline">\(3\)</span> cm. Can B has radius <span class="math inline">\(5\)</span> cm. Which uses less metal? Round to the nearest tenth.</p></li>
+</ol>
+<p><strong>Test practice</strong></p>
+<ol start="37" type="1">
+<li><p>A box is <span class="math inline">\(8\)</span> m long, <span class="math inline">\(5\)</span> m wide and <span class="math inline">\(3\)</span> m high. What is its surface area?</p>
+<p>A. <span class="math inline">\(79\)</span> m<span class="math inline">\(^2\)</span><br>
+B. <span class="math inline">\(120\)</span> m<span class="math inline">\(^2\)</span><br>
+C. <span class="math inline">\(158\)</span> m<span class="math inline">\(^2\)</span><br>
+D. <span class="math inline">\(240\)</span> m<span class="math inline">\(^2\)</span></p></li>
+<li><p>A cylinder has a radius of <span class="math inline">\(5\)</span> in and a height of <span class="math inline">\(6\)</span> in. What is its volume?</p>
+<p>A. <span class="math inline">\(30\pi\)</span> in<span class="math inline">\(^3\)</span><br>
+B. <span class="math inline">\(60\pi\)</span> in<span class="math inline">\(^3\)</span><br>
+C. <span class="math inline">\(150\pi\)</span> in<span class="math inline">\(^3\)</span><br>
+D. <span class="math inline">\(300\pi\)</span> in<span class="math inline">\(^3\)</span></p></li>
+<li><p>A cone has a radius of <span class="math inline">\(3\)</span> cm and a slant height of <span class="math inline">\(5\)</span> cm. What is its volume?</p>
+<p>A. <span class="math inline">\(12\pi\)</span> cm<span class="math inline">\(^3\)</span><br>
+B. <span class="math inline">\(15\pi\)</span> cm<span class="math inline">\(^3\)</span><br>
+C. <span class="math inline">\(20\pi\)</span> cm<span class="math inline">\(^3\)</span><br>
+D. <span class="math inline">\(36\pi\)</span> cm<span class="math inline">\(^3\)</span></p></li>
+<li><p>A sphere has a radius of <span class="math inline">\(3\)</span> ft. What is its volume?</p>
+<p>A. <span class="math inline">\(12\pi\)</span> ft<span class="math inline">\(^3\)</span><br>
+B. <span class="math inline">\(27\pi\)</span> ft<span class="math inline">\(^3\)</span><br>
+C. <span class="math inline">\(36\pi\)</span> ft<span class="math inline">\(^3\)</span><br>
+D. <span class="math inline">\(108\pi\)</span> ft<span class="math inline">\(^3\)</span></p></li>
+<li><p>A plane cuts a cone parallel to its base. What is the shape of the cross section?</p>
+<p>A. triangle<br>
+B. circle<br>
+C. rectangle<br>
+D. oval that is not a circle</p></li>
+<li><p>Two solids are similar. The scale factor from the small solid to the large solid is <span class="math inline">\(2\)</span>. The volume of the small solid is <span class="math inline">\(10\)</span> cm<span class="math inline">\(^3\)</span>. What is the volume of the large solid?</p>
+<p>A. <span class="math inline">\(20\)</span> cm<span class="math inline">\(^3\)</span><br>
+B. <span class="math inline">\(40\)</span> cm<span class="math inline">\(^3\)</span><br>
+C. <span class="math inline">\(60\)</span> cm<span class="math inline">\(^3\)</span><br>
+D. <span class="math inline">\(80\)</span> cm<span class="math inline">\(^3\)</span></p></li>
+<li><p>A trapezoid has bases of <span class="math inline">\(10\)</span> ft and <span class="math inline">\(14\)</span> ft and a height of <span class="math inline">\(5\)</span> ft. What is its area?</p>
+<p>A. <span class="math inline">\(60\)</span> ft<span class="math inline">\(^2\)</span><br>
+B. <span class="math inline">\(70\)</span> ft<span class="math inline">\(^2\)</span><br>
+C. <span class="math inline">\(120\)</span> ft<span class="math inline">\(^2\)</span><br>
+D. <span class="math inline">\(700\)</span> ft<span class="math inline">\(^2\)</span></p></li>
+<li><p>A block has a mass of <span class="math inline">\(900\)</span> g and a volume of <span class="math inline">\(600\)</span> cm<span class="math inline">\(^3\)</span>. Water has a density of <span class="math inline">\(1\)</span> g per cm<span class="math inline">\(^3\)</span>. What happens when the block is put in water?</p>
+<p>A. It floats, because its density is <span class="math inline">\(0.67\)</span> g per cm<span class="math inline">\(^3\)</span>.<br>
+B. It floats, because its density is <span class="math inline">\(1.5\)</span> g per cm<span class="math inline">\(^3\)</span>.<br>
+C. It sinks, because its density is <span class="math inline">\(1.5\)</span> g per cm<span class="math inline">\(^3\)</span>.<br>
+D. It sinks, because its density is <span class="math inline">\(0.67\)</span> g per cm<span class="math inline">\(^3\)</span>.</p></li>
+</ol>
+
+
+</section>
+
+</main> <!-- /main -->
+<script src="../../scripts/popper.min.js"></script>
+<script src="../../scripts/tippy.min.js"></script>
+<script src="../../scripts/glossary-tooltips.js"></script>
+<script src="../../scripts/custom-callouts.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../chapters/Unit_8/Summary.html" class="pagination-link" aria-label="Unit 8 Summary">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Unit 8 Summary</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../guided-notes.html" class="pagination-link" aria-label="Printable Guided Notes">
+        <span class="nav-page-text">Printable Guided Notes</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

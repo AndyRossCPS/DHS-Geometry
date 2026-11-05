@@ -1,0 +1,1481 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>5.1 - Ratios and Proportions – DHS Geometry</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../chapters/Unit_5/5.2_Similar_Figures_and_Scale_Factor.html" rel="next">
+<link href="../../chapters/Unit_5/index.html" rel="prev">
+<link href="../../images/logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-859b66b35598d39ec8aae4cd3ab271c8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      packages: { '[+]': ['ams', 'color', 'cancel', 'html'] },
+      macros: {
+        stepnote: ['\\hbox{}\\hskip 1em\\class{stepnote}{\\textcolor{gray}{\\scriptsize\\hbox{#1}}}', 1],
+        steptag: ['\\stepnote{#1}', 1],
+        snboth: ['\\hbox{}\\hskip 1em\\class{stepnote}{\\textcolor{gray}{\\scriptsize\\hbox{$#1$ both sides}}}', 1],
+        snplus: ['\\snboth{+\\,#1}', 1],
+        snminus: ['\\snboth{-\\,#1}', 1],
+        sntimes: ['\\snboth{\\times\\,#1}', 1],
+        sndiv: ['\\snboth{\\div\\,#1}', 1]
+      }},
+    chtml: { mtextInheritFont: true }
+    };
+</script>
+
+<script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles/custom-callouts.css">
+<link rel="stylesheet" href="../../styles/custom-general.css">
+<link rel="stylesheet" href="../../styles/glossary-tooltips.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">DHS Geometry</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-end">
+</div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../chapters/Unit_5/index.html">Unit 5: Similarity</a></li><li class="breadcrumb-item"><a href="../../chapters/Unit_5/5.1_Ratios_and_Proportions.html">5.1 - Ratios and Proportions</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Welcome to Geometry</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 1: Lines, Angles, and Equations</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/1.1_Points_Lines_Segments_and_Angles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.1 - Points, Lines, Segments, and Angles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/1.2_Segment_and_Angle_Addition.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.2 - Segment and Angle Addition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/1.3_Complementary_Supplementary_and_Vertical_Angles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.3 - Complementary, Supplementary, and Vertical Angles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/1.4_Parallel_Lines_and_Transversals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.4 - Parallel Lines and Transversals</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/1.5_Angles_in_Triangles_and_Polygons.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.5 - Angles in Triangles and Polygons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/Summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 1 Summary</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_1/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 1 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 2: The Pythagorean Theorem and the Coordinate Plane</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.1_Square_Roots_and_Simplifying_Radicals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.1 - Square Roots and Simplifying Radicals</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.2_The_Pythagorean_Theorem_and_Its_Converse.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.2 - The Pythagorean Theorem and Its Converse</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.3_The_Pythagorean_Theorem_in_the_Real_World.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.3 - The Pythagorean Theorem in the Real World</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.4_Distance_on_the_Coordinate_Plane.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.4 - Distance on the Coordinate Plane</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.5_Midpoint.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.5 - Midpoint</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.6_Slope_Parallel_Lines_and_Perpendicular_Lines.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.6 - Slope, Parallel Lines, and Perpendicular Lines</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.7_Dividing_a_Segment_in_a_Ratio.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.7 - Dividing a Segment in a Ratio</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.8_Perimeter_and_Area_on_the_Coordinate_Plane.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.8 - Perimeter and Area on the Coordinate Plane</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/2.9_Checking_Shapes_with_Coordinates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2.9 - Checking Shapes with Coordinates</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/Summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 2 Summary</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_2/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 2 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 3: Transformations</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/3.1_Translations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3.1 - Translations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/3.2_Reflections.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3.2 - Reflections</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/3.3_Rotations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3.3 - Rotations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/3.4_Dilations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3.4 - Dilations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/3.5_Sequences_of_Transformations_and_Symmetry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3.5 - Sequences of Transformations and Symmetry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/Summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 3 Summary</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_3/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 3 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 4: Congruence</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_4/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_4/4.1_Congruent_Figures_and_Rigid_Motions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.1 - Congruent Figures and Rigid Motions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_4/4.2_Triangle_Congruence.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.2 - Triangle Congruence: SSS, SAS, ASA, AAS, and HL</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_4/4.3_Isosceles_and_Equilateral_Triangles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.3 - Isosceles and Equilateral Triangles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_4/4.4_Quadrilaterals_and_Their_Properties.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.4 - Quadrilaterals and Their Properties</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_4/4.5_Constructions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.5 - Constructions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_4/Summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 4 Summary</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_4/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 4 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Unit 5: Similarity</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_5/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_5/5.1_Ratios_and_Proportions.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">5.1 - Ratios and Proportions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_5/5.2_Similar_Figures_and_Scale_Factor.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5.2 - Similar Figures and Scale Factor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_5/5.3_Similar_Triangles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5.3 - Similar Triangles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_5/5.4_Triangle_Proportionality.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5.4 - Triangle Proportionality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_5/5.5_Indirect_Measurement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5.5 - Indirect Measurement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_5/Summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 5 Summary</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_5/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 5 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 6: Right Triangle Trigonometry</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/6.1_Special_Right_Triangles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.1 - Special Right Triangles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/6.2_The_Trigonometric_Ratios.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.2 - The Trigonometric Ratios</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/6.3_Solving_for_a_Side.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.3 - Solving for a Side</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/6.4_Solving_for_an_Angle.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.4 - Solving for an Angle</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/6.5_Sine_and_Cosine_of_Complementary_Angles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.5 - Sine and Cosine of Complementary Angles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/6.6_Angles_of_Elevation_and_Depression.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.6 - Angles of Elevation and Depression</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/6.7_Modeling_with_Right_Triangles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6.7 - Modeling with Right Triangles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/Summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 6 Summary</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_6/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 6 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 7: Circles</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_7/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_7/7.1_Circumference_and_Arc_Length.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7.1 - Circumference and Arc Length</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_7/7.2_Area_of_Circles_and_Sectors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7.2 - Area of Circles and Sectors</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_7/7.3_Radians.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7.3 - Radians</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_7/7.4_Inscribed_Angles_and_Tangents.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7.4 - Inscribed Angles and Tangents</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_7/7.5_The_Equation_of_a_Circle.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7.5 - The Equation of a Circle</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_7/Summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 7 Summary</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_7/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 7 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 8: Area, Surface Area, and Volume</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_8/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_8/8.1_Area_of_Polygons_and_Composite_Figures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8.1 - Area of Polygons and Composite Figures</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_8/8.2_Cross_Sections_and_Solids_of_Revolution.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8.2 - Cross Sections and Solids of Revolution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_8/8.3_Surface_Area_and_Nets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8.3 - Surface Area and Nets</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_8/8.4_Volume_of_Prisms_and_Cylinders.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8.4 - Volume of Prisms and Cylinders</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_8/8.5_Volume_of_Pyramids_Cones_and_Spheres.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8.5 - Volume of Pyramids, Cones, and Spheres</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_8/8.6_Density_and_Modeling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8.6 - Density and Modeling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_8/Summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 8 Summary</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/Unit_8/Review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 8 Review</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guided-notes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Printable Guided Notes</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glossary</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#warmup" id="toc-warmup" class="nav-link active" data-scroll-target="#warmup">🔥 Warm Up</a></li>
+  <li><a href="#learn" id="toc-learn" class="nav-link" data-scroll-target="#learn">👥 Learn Together</a>
+  <ul class="collapse">
+  <li><a href="#ratios" id="toc-ratios" class="nav-link" data-scroll-target="#ratios">5.1.1 - Ratios</a></li>
+  <li><a href="#proportions" id="toc-proportions" class="nav-link" data-scroll-target="#proportions">5.1.2 - Proportions</a></li>
+  <li><a href="#scale-drawings-and-maps" id="toc-scale-drawings-and-maps" class="nav-link" data-scroll-target="#scale-drawings-and-maps">5.1.3 - Scale Drawings and Maps</a></li>
+  <li><a href="#ratios-in-a-figure" id="toc-ratios-in-a-figure" class="nav-link" data-scroll-target="#ratios-in-a-figure">5.1.4 - Ratios in a Figure</a></li>
+  </ul></li>
+  <li><a href="#practice" id="toc-practice" class="nav-link" data-scroll-target="#practice">✍️ Practice On Your Own</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../chapters/Unit_5/index.html">Unit 5: Similarity</a></li><li class="breadcrumb-item"><a href="../../chapters/Unit_5/5.1_Ratios_and_Proportions.html">5.1 - Ratios and Proportions</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">5.1 - Ratios and Proportions</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Amira is making lemonade for a school party. Her recipe uses 2 cups of lemon juice and 3 cups of water. She needs more, so she doubles the recipe. Now she uses 4 cups of juice and 6 cups of water.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/Unit_5/5.1_bars.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="400"></p>
+</figure>
+</div>
+<p>The amounts changed. The taste did not, because the ratio of juice to water is still the same. Maps, floor plans, and recipes all work this way. In this lesson you learn to write ratios and to solve for a missing number. Later in this unit, these skills help you find missing lengths in figures with the same shape.</p>
+<div class="objectives">
+<ul class="task-list">
+<li><label><input type="checkbox">I can write a ratio and simplify it.</label></li>
+<li><label><input type="checkbox">I can solve a proportion with cross products.</label></li>
+<li><label><input type="checkbox">I can use a scale to find a real length or a drawing length.</label></li>
+<li><label><input type="checkbox">I can use a ratio to find parts of an angle or a segment.</label></li>
+</ul>
+</div>
+<div class="vocab">
+<p><a href="../../glossary.html#glossary-ratio" class="glossary-link" data-slug="ratio" data-term="ratio" data-original-href="#glossary-ratio">ratio</a>, <a href="../../glossary.html#glossary-proportion" class="glossary-link" data-slug="proportion" data-term="proportion" data-original-href="#glossary-proportion">proportion</a>, <a href="../../glossary.html#glossary-cross-products" class="glossary-link" data-slug="cross-products" data-term="cross products" data-original-href="#glossary-cross-products">cross products</a>, <a href="../../glossary.html#glossary-scale-drawing" class="glossary-link" data-slug="scale-drawing" data-term="scale drawing" data-original-href="#glossary-scale-drawing">scale drawing</a>, <a href="../../glossary.html#glossary-scale" class="glossary-link" data-slug="scale" data-term="scale" data-original-href="#glossary-scale">scale</a></p>
+</div>
+<div class="guided-notes-link">
+<p><a href="../../guided_notes/Unit_5/5.1_Ratios_and_Proportions.html" target="_blank">Printable Guided Notes for this lesson</a> (fill-in notes to print and write on)</p>
+</div>
+<section id="warmup" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="warmup">🔥 Warm Up</h2>
+<ol type="1">
+<li><p>Simplify <span class="math inline">\(\dfrac{18}{24}\)</span>.</p></li>
+<li><p>Solve <span class="math inline">\(4x = 30\)</span>.</p></li>
+<li><p>Solve <span class="math inline">\(2x + 3 = 3x - 5\)</span>.</p></li>
+</ol>
+</section>
+<section id="learn" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="learn">👥 Learn Together</h2>
+<section id="ratios" class="level3">
+<h3 class="anchored" data-anchor-id="ratios">5.1.1 - Ratios</h3>
+<p>A <strong>ratio</strong> compares two numbers by division. Amira’s recipe has 2 cups of juice for every 3 cups of water. The ratio of juice to water is 2 to 3.</p>
+<p>You can write the same ratio three ways:</p>
+<ul>
+<li>2 to 3</li>
+<li><span class="math inline">\(2 : 3\)</span></li>
+<li><span class="math inline">\(\dfrac{2}{3}\)</span></li>
+</ul>
+<p>A ratio can be simplified like a fraction. Divide both numbers by the same number. The ratio <span class="math inline">\(4 : 6\)</span> simplifies to <span class="math inline">\(2 : 3\)</span> because <span class="math inline">\(4 \div 2 = 2\)</span> and <span class="math inline">\(6 \div 2 = 3\)</span>.</p>
+<div class="gotcha" title="Order matters">
+<p>The ratio of juice to water is <span class="math inline">\(2 : 3\)</span>. The ratio of water to juice is <span class="math inline">\(3 : 2\)</span>. These are different. The first number goes with the first thing named.</p>
+</div>
+<hr>
+<p><strong>Example 1:</strong> Write and simplify a ratio</p>
+<p>A box has 15 red tiles and 25 blue tiles.</p>
+<ol type="a">
+<li><p>Write the ratio of red tiles to blue tiles.</p></li>
+<li><p>Write the ratio of blue tiles to all the tiles.</p></li>
+<li><p><span class="math inline">\(15 : 25\)</span>. Divide both by 5. The ratio is <span class="math inline">\(3 : 5\)</span>.</p></li>
+<li><p>There are <span class="math inline">\(15 + 25 = 40\)</span> tiles. The ratio is <span class="math inline">\(25 : 40\)</span>. Divide both by 5. The ratio is <span class="math inline">\(5 : 8\)</span>.</p></li>
+</ol>
+<div class="you-try-m" title="A shop has 18 laptops and 30 tablets.">
+<ol type="a">
+<li><p>Write the ratio of tablets to laptops in lowest terms.</p></li>
+<li><p>Write the ratio of laptops to all the devices in lowest terms.</p></li>
+</ol>
+</div>
+<div class="answer" title="Answer">
+<ol type="a">
+<li><p><span class="math inline">\(30 : 18 = 5 : 3\)</span></p></li>
+<li><p><span class="math inline">\(18 : 48 = 3 : 8\)</span></p></li>
+</ol>
+</div>
+<p><strong>Use the same units.</strong> To compare 2 feet and 8 inches, change them to the same unit first.</p>
+<hr>
+<p><strong>Example 3:</strong> Ratios with units</p>
+<p>Ahmad has a board that is 2 feet long. He cuts a piece that is 8 inches long. Write the ratio of the board to the piece in lowest terms.</p>
+<p>Change feet to inches: <span class="math inline">\(2 \text{ ft} = 24 \text{ in}\)</span>.</p>
+<p>The ratio is <span class="math inline">\(24 : 8\)</span>. Divide both by 8. The ratio is <span class="math inline">\(3 : 1\)</span>.</p>
+<p>The board is 3 times as long as the piece.</p>
+<div class="you-try-m" title="Write the ratio in lowest terms.">
+<p>What is the ratio of 3 yards to 6 feet?</p>
+</div>
+<div class="answer" title="Answer">
+<p><span class="math inline">\(3 \text{ yd} = 9 \text{ ft}\)</span>. The ratio is <span class="math inline">\(9 : 6 = 3 : 2\)</span>.</p>
+</div>
+</section>
+<section id="proportions" class="level3">
+<h3 class="anchored" data-anchor-id="proportions">5.1.2 - Proportions</h3>
+<p>A <strong>proportion</strong> is an equation that says two ratios are equal. Start with Amira’s lemonade. The recipe uses 2 cups of juice for 3 cups of water. How much juice goes with 12 cups of water?</p>
+<p>Let <span class="math inline">\(x\)</span> be the cups of juice. Juice is on top and water is on the bottom in both ratios:</p>
+<p><span class="math display">\[
+\dfrac{2}{3} = \dfrac{x}{12}
+\]</span></p>
+<p>Multiply both sides by <span class="math inline">\(3\)</span> and by <span class="math inline">\(12\)</span>. The left side becomes <span class="math inline">\(2 \cdot 12\)</span>. The right side becomes <span class="math inline">\(3 \cdot x\)</span>. So <span class="math inline">\(24 = 3x\)</span>. Then <span class="math inline">\(x = 8\)</span>.</p>
+<p>That shortcut always works. It is called <strong>cross products</strong>. Multiply along the two diagonals.</p>
+<p><span class="math display">\[
+\dfrac{a}{b} = \dfrac{c}{d} \quad \text{means} \quad ad = bc
+\]</span></p>
+<hr>
+<p><strong>Example 5:</strong> Solve a proportion</p>
+<p>Solve <span class="math inline">\(\dfrac{x}{12} = \dfrac{5}{8}\)</span>.</p>
+<p>Cross products: <span class="math inline">\(8 \cdot x = 12 \cdot 5\)</span>.</p>
+<p><span class="math inline">\(8x = 60\)</span></p>
+<p><span class="math inline">\(x = 7.5\)</span></p>
+<p>Check: <span class="math inline">\(\dfrac{7.5}{12} = 0.625\)</span> and <span class="math inline">\(\dfrac{5}{8} = 0.625\)</span>.</p>
+<div class="you-try-m" title="Solve.">
+<p><span class="math inline">\(\dfrac{x}{10} = \dfrac{7}{4}\)</span></p>
+</div>
+<div class="answer" title="Answer">
+<p><span class="math inline">\(4x = 70\)</span>, so <span class="math inline">\(x = 17.5\)</span>.</p>
+</div>
+<hr>
+<p><strong>Example 7:</strong> A proportion from a word problem</p>
+<p>Moses walks 6 miles in 2 hours. He keeps the same speed. How long does it take him to walk 15 miles?</p>
+<p>Put miles on top and hours on the bottom in both ratios. Let <span class="math inline">\(t\)</span> be the hours.</p>
+<p><span class="math inline">\(\dfrac{6}{2} = \dfrac{15}{t}\)</span></p>
+<p><span class="math inline">\(6t = 2 \cdot 15 = 30\)</span></p>
+<p><span class="math inline">\(t = 5\)</span></p>
+<p>It takes <strong>5 hours</strong>.</p>
+<div class="you-try-m" title="Write a proportion and solve.">
+<p>A printer prints 45 pages in 6 minutes. How many pages does it print in 20 minutes?</p>
+</div>
+<div class="answer" title="Answer">
+<p><span class="math inline">\(\dfrac{45}{6} = \dfrac{p}{20}\)</span>, so <span class="math inline">\(6p = 900\)</span> and <span class="math inline">\(p = 150\)</span> pages.</p>
+</div>
+<p>Sometimes the unknown is part of an expression. Use cross products, then solve the equation.</p>
+<hr>
+<p><strong>Example 9:</strong> Expressions in a proportion</p>
+<p>Solve <span class="math inline">\(\dfrac{5}{x + 2} = \dfrac{4}{x}\)</span>.</p>
+<p>Cross products: <span class="math inline">\(5 \cdot x = 4(x + 2)\)</span>.</p>
+<p><span class="math inline">\(5x = 4x + 8\)</span></p>
+<p><span class="math inline">\(x = 8\)</span></p>
+<p>Check: <span class="math inline">\(\dfrac{5}{10} = 0.5\)</span> and <span class="math inline">\(\dfrac{4}{8} = 0.5\)</span>.</p>
+<div class="you-try-m" title="Solve.">
+<p><span class="math inline">\(\dfrac{7}{x} = \dfrac{3}{x - 4}\)</span></p>
+</div>
+<div class="answer" title="Answer">
+<p><span class="math inline">\(7(x - 4) = 3x\)</span>, so <span class="math inline">\(7x - 28 = 3x\)</span> and <span class="math inline">\(4x = 28\)</span>. <span class="math inline">\(x = 7\)</span>.</p>
+</div>
+<hr>
+<p><strong>Example 11:</strong> A proportion with two answers</p>
+<p>Solve <span class="math inline">\(\dfrac{x - 2}{5} = \dfrac{20}{x - 2}\)</span>.</p>
+<p>Cross products: <span class="math inline">\((x - 2)(x - 2) = 5 \cdot 20\)</span>.</p>
+<p><span class="math inline">\((x - 2)^2 = 100\)</span></p>
+<p><span class="math inline">\(x - 2 = 10\)</span> or <span class="math inline">\(x - 2 = -10\)</span></p>
+<p><span class="math inline">\(x = 12\)</span> or <span class="math inline">\(x = -8\)</span></p>
+<p>Both work in the equation. In a figure, a length cannot be negative, so you would keep only <span class="math inline">\(x = 12\)</span>.</p>
+<div class="you-try-m" title="Solve. Find both answers.">
+<p><span class="math inline">\(\dfrac{x + 1}{4} = \dfrac{9}{x + 1}\)</span></p>
+</div>
+<div class="answer" title="Answer">
+<p><span class="math inline">\((x + 1)^2 = 36\)</span>, so <span class="math inline">\(x + 1 = 6\)</span> or <span class="math inline">\(x + 1 = -6\)</span>. <span class="math inline">\(x = 5\)</span> or <span class="math inline">\(x = -7\)</span>.</p>
+</div>
+</section>
+<section id="scale-drawings-and-maps" class="level3">
+<h3 class="anchored" data-anchor-id="scale-drawings-and-maps">5.1.3 - Scale Drawings and Maps</h3>
+<p>A <strong>scale drawing</strong> is a smaller or larger copy of something real. A map and a floor plan are scale drawings. The <strong>scale</strong> tells how a length on the drawing matches the real length.</p>
+<p>A scale of <span class="math inline">\(1 \text{ in} : 20 \text{ ft}\)</span> means that 1 inch on the drawing stands for 20 feet in real life. Put the drawing length in one ratio and the real length in the other. Keep the same units in the same place.</p>
+<hr>
+<p><strong>Example 13:</strong> Use a scale</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/Unit_5/5.1_plan.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="260"></p>
+</figure>
+</div>
+<p>The plan of a lot has the scale <span class="math inline">\(1 \text{ in} : 20 \text{ ft}\)</span>. On the plan, the lot is 3.5 in long and 2 in wide.</p>
+<ol type="a">
+<li><p>Find the real length of the lot.</p></li>
+<li><p>A shed is 12 ft wide. How wide is the shed on the plan?</p></li>
+<li><p>Let <span class="math inline">\(L\)</span> be the real length in feet.</p></li>
+</ol>
+<p><span class="math inline">\(\dfrac{1}{20} = \dfrac{3.5}{L}\)</span>, so <span class="math inline">\(L = 20 \cdot 3.5 = 70\)</span> ft.</p>
+<p>The lot is 70 ft long (and <span class="math inline">\(2 \cdot 20 = 40\)</span> ft wide).</p>
+<ol start="2" type="a">
+<li>Let <span class="math inline">\(d\)</span> be the width on the plan in inches.</li>
+</ol>
+<p><span class="math inline">\(\dfrac{1}{20} = \dfrac{d}{12}\)</span>, so <span class="math inline">\(20d = 12\)</span> and <span class="math inline">\(d = 0.6\)</span>.</p>
+<p>The shed is <strong>0.6 in</strong> wide on the plan.</p>
+<div class="you-try-m" title="A map has the scale $1 \text{ in} : 8 \text{ mi}$.">
+<ol type="a">
+<li><p>Two towns are 3.5 in apart on the map. Find the real distance.</p></li>
+<li><p>Two lakes are 50 mi apart. How far apart are they on the map?</p></li>
+</ol>
+</div>
+<div class="answer" title="Answer">
+<ol type="a">
+<li><p><span class="math inline">\(3.5 \cdot 8 = 28\)</span> mi.</p></li>
+<li><p><span class="math inline">\(\dfrac{1}{8} = \dfrac{d}{50}\)</span>, so <span class="math inline">\(8d = 50\)</span> and <span class="math inline">\(d = 6.25\)</span> in.</p></li>
+</ol>
+</div>
+<p>A scale can also have no units, like <span class="math inline">\(1 : 50\)</span>. Then both numbers use the same unit. On a <span class="math inline">\(1 : 50\)</span> plan, 1 cm on the plan stands for 50 cm in real life.</p>
+</section>
+<section id="ratios-in-a-figure" class="level3">
+<h3 class="anchored" data-anchor-id="ratios-in-a-figure">5.1.4 - Ratios in a Figure</h3>
+<p>A ratio can split a total into parts. Write each part as a number times <span class="math inline">\(x\)</span>. Add the parts to equal the total. Solve for <span class="math inline">\(x\)</span>.</p>
+<hr>
+<p><strong>Example 15:</strong> Angles in a ratio</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/Unit_5/5.1_ang.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="230"></p>
+</figure>
+</div>
+<p>The angles of a triangle are in the ratio <span class="math inline">\(2 : 3 : 4\)</span>. Find each angle.</p>
+<p>The angles add to <span class="math inline">\(180^\circ\)</span>.</p>
+<p><span class="math inline">\(2x + 3x + 4x = 180\)</span></p>
+<p><span class="math inline">\(9x = 180\)</span>, so <span class="math inline">\(x = 20\)</span>.</p>
+<p>The angles are <span class="math inline">\(2(20) = 40^\circ\)</span>, <span class="math inline">\(3(20) = 60^\circ\)</span>, and <span class="math inline">\(4(20) = 80^\circ\)</span>.</p>
+<p>Check: <span class="math inline">\(40 + 60 + 80 = 180\)</span>.</p>
+<div class="you-try-m" title="The angles of a triangle are in the ratio $1 : 2 : 6$.">
+<p>Find each angle. Then say whether the triangle is acute, right, or obtuse.</p>
+</div>
+<div class="answer" title="Answer">
+<p><span class="math inline">\(x + 2x + 6x = 180\)</span>, so <span class="math inline">\(9x = 180\)</span> and <span class="math inline">\(x = 20\)</span>.</p>
+<p>The angles are <span class="math inline">\(20^\circ\)</span>, <span class="math inline">\(40^\circ\)</span>, and <span class="math inline">\(120^\circ\)</span>. The triangle is obtuse.</p>
+</div>
+<hr>
+<p><strong>Example 17:</strong> A segment in a ratio</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/Unit_5/5.1_split.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="260"></p>
+</figure>
+</div>
+<p>Point <span class="math inline">\(P\)</span> is on <span class="math inline">\(\overline{AB}\)</span>. <span class="math inline">\(AB = 40\)</span> in. The ratio <span class="math inline">\(AP : PB\)</span> is <span class="math inline">\(3 : 5\)</span>. Find <span class="math inline">\(AP\)</span> and <span class="math inline">\(PB\)</span>.</p>
+<p><span class="math inline">\(AP + PB = AB\)</span></p>
+<p><span class="math inline">\(3x + 5x = 40\)</span></p>
+<p><span class="math inline">\(8x = 40\)</span>, so <span class="math inline">\(x = 5\)</span>.</p>
+<p><span class="math inline">\(AP = 3(5) = 15\)</span> in and <span class="math inline">\(PB = 5(5) = 25\)</span> in.</p>
+<div class="you-try-m" title="Concrete is mixed in the ratio $1 : 2 : 3$.">
+<p>A mix is cement : sand : gravel <span class="math inline">\(= 1 : 2 : 3\)</span> by volume. The total is 27 cubic feet. How much of each is there?</p>
+</div>
+<div class="answer" title="Answer">
+<p><span class="math inline">\(x + 2x + 3x = 27\)</span>, so <span class="math inline">\(6x = 27\)</span> and <span class="math inline">\(x = 4.5\)</span>.</p>
+<p>Cement: 4.5 cubic ft. Sand: 9 cubic ft. Gravel: 13.5 cubic ft.</p>
+</div>
+</section>
+</section>
+<section id="practice" class="level2 unnumbered pagebreak-before">
+<h2 class="unnumbered pagebreak-before anchored" data-anchor-id="practice">✍️ Practice On Your Own</h2>
+<hr>
+<p><strong>Write each ratio as a fraction in lowest terms.</strong></p>
+<ol type="1">
+<li><p>14 to 21</p></li>
+<li><p>36 : 48</p></li>
+<li><p>45 to 15</p></li>
+</ol>
+<hr>
+<p><strong>Change to the same unit. Then write the ratio in lowest terms.</strong></p>
+<ol start="4" type="1">
+<li><p>3 ft to 18 in</p></li>
+<li><p>90 cm to 2 m</p></li>
+<li><p>45 min to 2 h</p></li>
+<li><p>2 yd to 3 ft</p></li>
+</ol>
+<hr>
+<p><strong>Solve each proportion.</strong></p>
+<ol start="8" type="1">
+<li><p><span class="math inline">\(\dfrac{x}{15} = \dfrac{2}{5}\)</span></p></li>
+<li><p><span class="math inline">\(\dfrac{7}{x} = \dfrac{21}{12}\)</span></p></li>
+<li><p><span class="math inline">\(\dfrac{5}{8} = \dfrac{x}{20}\)</span></p></li>
+<li><p><span class="math inline">\(\dfrac{9}{14} = \dfrac{27}{x}\)</span></p></li>
+<li><p><span class="math inline">\(\dfrac{x + 1}{6} = \dfrac{8}{3}\)</span></p></li>
+<li><p><span class="math inline">\(\dfrac{6}{x - 1} = \dfrac{9}{12}\)</span></p></li>
+<li><p><span class="math inline">\(\dfrac{x}{x + 3} = \dfrac{2}{5}\)</span></p></li>
+<li><p><span class="math inline">\(\dfrac{x + 2}{9} = \dfrac{4}{x + 2}\)</span> (two answers)</p></li>
+</ol>
+<hr>
+<p><strong>Find the mistake.</strong></p>
+<ol start="16" type="1">
+<li>Thu solves <span class="math inline">\(\dfrac{3}{x} = \dfrac{5}{20}\)</span>. She writes <span class="math inline">\(3 \cdot 5 = 20x\)</span> and gets <span class="math inline">\(x = 0.75\)</span>. Find her mistake. Then solve the proportion correctly.</li>
+</ol>
+<hr>
+<p><strong>Write a proportion and solve.</strong></p>
+<ol start="17" type="1">
+<li><p>A rice recipe for 4 people uses 3 cups of rice. How many cups does the same recipe need for 14 people?</p></li>
+<li><p>Kofi’s car uses 5 gallons of gas to drive 140 miles. At the same rate, how far can it go on 12 gallons?</p></li>
+<li><p>A photo is 4 in by 6 in. It is enlarged so the short side is 10 in. The shape stays the same. How long is the long side?</p></li>
+</ol>
+<hr>
+<p><strong>Use the scale.</strong></p>
+<ol start="20" type="1">
+<li><p>A drawing has the scale <span class="math inline">\(1 \text{ in} : 25 \text{ ft}\)</span>. A deck is 130 ft long in real life. How long is it on the drawing?</p></li>
+<li><p>A map has the scale <span class="math inline">\(1 \text{ cm} : 4 \text{ km}\)</span>. Two cities are 7.5 cm apart on the map. How far apart are they in real life?</p></li>
+<li><p>A floor plan has the scale <span class="math inline">\(1 : 50\)</span>. A room is 5 m long. How long is the room on the plan? Give your answer in centimeters.</p></li>
+</ol>
+<hr>
+<p><strong>Find the parts.</strong></p>
+<ol start="23" type="1">
+<li><p>The angles of a triangle are in the ratio <span class="math inline">\(1 : 2 : 3\)</span>. Find each angle.</p></li>
+<li><p>Point <span class="math inline">\(F\)</span> is on <span class="math inline">\(\overline{DE}\)</span>. <span class="math inline">\(DE = 63\)</span> cm and <span class="math inline">\(DF : FE = 2 : 7\)</span>. Find <span class="math inline">\(DF\)</span> and <span class="math inline">\(FE\)</span>.</p></li>
+<li><p>A concrete mix is cement : sand : gravel <span class="math inline">\(= 1 : 2 : 4\)</span>. The total is 28 cubic feet. How much gravel is there?</p></li>
+<li><p>The angles of a quadrilateral are in the ratio <span class="math inline">\(2 : 3 : 3 : 4\)</span>. Find each angle.</p></li>
+</ol>
+<hr>
+<p><strong>Test practice</strong></p>
+<ol start="27" type="1">
+<li><p>The length of a garden to its width is in the ratio 7 to 4. The garden is 28 feet long. Which equation can be used to find the width <span class="math inline">\(w\)</span>?</p>
+<p>A. <span class="math inline">\(\dfrac{7}{4} = \dfrac{w}{28}\)</span><br>
+B. <span class="math inline">\(\dfrac{7}{4} = \dfrac{28}{w}\)</span><br>
+C. <span class="math inline">\(\dfrac{4}{7} = \dfrac{28}{w}\)</span><br>
+D. <span class="math inline">\(\dfrac{28}{7} = \dfrac{4}{w}\)</span></p></li>
+<li><p>On a map, 2.5 centimeters stand for 10 kilometers. Two towns are 14 centimeters apart on the map. What is the real distance between the towns?</p>
+<p>A. 35 km<br>
+B. 56 km<br>
+C. 5.6 km<br>
+D. 140 km</p></li>
+</ol>
+<hr>
+<p><strong>Challenge</strong></p>
+<ol start="29" type="1">
+<li>A map has the scale <span class="math inline">\(1 \text{ in} : 20 \text{ mi}\)</span>. A park is a rectangle 2 in by 3 in on the map. Find the real area of the park in square miles. Hint: do not multiply the map area by 20.</li>
+</ol>
+
+
+</section>
+
+</main> <!-- /main -->
+<script src="../../scripts/popper.min.js"></script>
+<script src="../../scripts/tippy.min.js"></script>
+<script src="../../scripts/glossary-tooltips.js"></script>
+<script src="../../scripts/custom-callouts.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../chapters/Unit_5/index.html" class="pagination-link" aria-label="Introduction">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Introduction</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../chapters/Unit_5/5.2_Similar_Figures_and_Scale_Factor.html" class="pagination-link" aria-label="5.2 - Similar Figures and Scale Factor">
+        <span class="nav-page-text">5.2 - Similar Figures and Scale Factor</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
