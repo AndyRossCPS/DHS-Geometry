@@ -1,0 +1,139 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "DHS Geometry",
+    "section": "",
+    "text": "Welcome to Geometry\nWelcome to Geometry at Frederick Douglass High School!\nA builder makes a perfect square corner with three numbers: 3, 4, and 5. A wheelchair ramp must rise 1 inch for every 12 inches it goes forward. You can find the height of a tree from the length of its shadow.\nAll of these are geometry. Geometry is the math of shape, size, and position. In this class you will measure things you cannot reach, check if a shape is what it looks like, and use algebra to answer questions about pictures.",
+    "crumbs": [
+      "Welcome to Geometry"
+    ]
+  },
+  {
+    "objectID": "index.html#how-this-book-works",
+    "href": "index.html#how-this-book-works",
+    "title": "DHS Geometry",
+    "section": "🧭 How This Book Works",
+    "text": "🧭 How This Book Works\nEach lesson has:\n\nExamples we work together in class\nPractice problems to do on your own\nA printable guided notes sheet with the same examples and practice\n\nMany lessons use the coordinate plane. The tools you learn in Unit 2 (distance, midpoint, and slope) come back in every unit after it.",
+    "crumbs": [
+      "Welcome to Geometry"
+    ]
+  },
+  {
+    "objectID": "index.html#course-map",
+    "href": "index.html#course-map",
+    "title": "DHS Geometry",
+    "section": "🗺️ Course Map",
+    "text": "🗺️ Course Map\n\n\n\nLesson\nTopic\n\n\n\n\nUnit 1: Lines, Angles, and Equations\n\n\n\n1.1\nPoints, lines, segments, and angles\n\n\n1.2\nSegment and angle addition\n\n\n1.3\nComplementary, supplementary, and vertical angles\n\n\n1.4\nParallel lines and transversals\n\n\n1.5\nAngles in triangles and polygons\n\n\nUnit 2: The Pythagorean Theorem and the Coordinate Plane\n\n\n\n2.1\nSquare roots and simplifying radicals\n\n\n2.2\nThe Pythagorean theorem and its converse\n\n\n2.3\nThe Pythagorean theorem in the real world\n\n\n2.4\nDistance on the coordinate plane\n\n\n2.5\nMidpoint\n\n\n2.6\nSlope, parallel lines, and perpendicular lines\n\n\n2.7\nDividing a segment in a ratio\n\n\n2.8\nPerimeter and area on the coordinate plane\n\n\n2.9\nChecking shapes with coordinates\n\n\nUnit 3: Transformations\n\n\n\n3.1\nTranslations\n\n\n3.2\nReflections\n\n\n3.3\nRotations\n\n\n3.4\nDilations\n\n\n3.5\nSequences of transformations and symmetry\n\n\nUnit 4: Congruence\n\n\n\n4.1\nCongruent figures and rigid motions\n\n\n4.2\nTriangle congruence: SSS, SAS, ASA, AAS, and HL\n\n\n4.3\nIsosceles and equilateral triangles\n\n\n4.4\nQuadrilaterals and their properties\n\n\n4.5\nConstructions\n\n\nUnit 5: Similarity\n\n\n\n5.1\nRatios and proportions\n\n\n5.2\nSimilar figures and scale factor\n\n\n5.3\nSimilar triangles\n\n\n5.4\nTriangle proportionality\n\n\n5.5\nIndirect measurement\n\n\nUnit 6: Right Triangle Trigonometry\n\n\n\n6.1\nSpecial right triangles\n\n\n6.2\nThe trigonometric ratios\n\n\n6.3\nSolving for a side\n\n\n6.4\nSolving for an angle\n\n\n6.5\nSine and cosine of complementary angles\n\n\n6.6\nAngles of elevation and depression\n\n\n6.7\nModeling with right triangles\n\n\nUnit 7: Circles\n\n\n\n7.1\nCircumference and arc length\n\n\n7.2\nArea of circles and sectors\n\n\n7.3\nRadians\n\n\n7.4\nInscribed angles and tangents\n\n\n7.5\nThe equation of a circle\n\n\nUnit 8: Area, Surface Area, and Volume\n\n\n\n8.1\nArea of polygons and composite figures\n\n\n8.2\nCross sections and solids of revolution\n\n\n8.3\nSurface area and nets\n\n\n8.4\nVolume of prisms and cylinders\n\n\n8.5\nVolume of pyramids, cones, and spheres\n\n\n8.6\nDensity and modeling\n\n\n\nEvery unit ends with a Summary and a Review.",
+    "crumbs": [
+      "Welcome to Geometry"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_1/index.html",
+    "href": "chapters/Unit_1/index.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "What You’ll Learn\nWelcome to Unit 1! Geometry starts with a few simple objects: points, lines, and angles.\nLook at a door frame, a road map, or the hands of a clock. You see lines that cross and angles that open and close. In this unit you learn to name these objects and measure them. Then you write equations about them, the same kind of equations you solved in Algebra.\nBy the end of this unit, you will be able to:",
+    "crumbs": [
+      "Unit 1: Lines, Angles, and Equations",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_1/index.html#what-youll-learn",
+    "href": "chapters/Unit_1/index.html#what-youll-learn",
+    "title": "Introduction",
+    "section": "",
+    "text": "Name and draw points, lines, segments, rays, and angles with the correct symbols\nMeasure and classify angles\nWrite and solve equations with segment lengths and angle measures\nUse complementary, supplementary, and vertical angles to find missing angles\nFind the angles made when a line crosses two parallel lines\nFind missing angles in triangles and other polygons",
+    "crumbs": [
+      "Unit 1: Lines, Angles, and Equations",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_1/index.html#topics-in-this-unit",
+    "href": "chapters/Unit_1/index.html#topics-in-this-unit",
+    "title": "Introduction",
+    "section": "Topics in This Unit",
+    "text": "Topics in This Unit\nPoints, Lines, Segments, and Angles\nName the basic objects of geometry and write them with the right symbols.\nSegment and Angle Addition\nAdd the parts to get the whole. Write and solve equations for missing lengths and angles.\nComplementary, Supplementary, and Vertical Angles\nUse angle pairs that add to \\(90^\\circ\\) or \\(180^\\circ\\), or that are always equal.\nParallel Lines and Transversals\nFind every angle when a line crosses two parallel lines.\nAngles in Triangles and Polygons\nThe angles in a triangle add to \\(180^\\circ\\). Use that to find the angles in any polygon.",
+    "crumbs": [
+      "Unit 1: Lines, Angles, and Equations",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_1/1.1_Points_Lines_Segments_and_Angles.html",
+    "href": "chapters/Unit_1/1.1_Points_Lines_Segments_and_Angles.html",
+    "title": "1.1 - Points, Lines, Segments, and Angles",
+    "section": "",
+    "text": "🔥 Warm Up\nLook at this map. Three straight streets cross each other.\nEach corner is one exact spot on the map. Each street is straight. Where two streets cross, they make a corner that opens a certain amount.\nGeometry has a word for each of these things. A corner is a point. A straight street is part of a line. Two streets that leave the same corner make an angle. In this lesson you learn these words and the symbols we use to write them.",
+    "crumbs": [
+      "Unit 1: Lines, Angles, and Equations",
+      "1.1 - Points, Lines, Segments, and Angles"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_1/1.1_Points_Lines_Segments_and_Angles.html#warmup",
+    "href": "chapters/Unit_1/1.1_Points_Lines_Segments_and_Angles.html#warmup",
+    "title": "1.1 - Points, Lines, Segments, and Angles",
+    "section": "",
+    "text": "Plot the points \\(A(3, 2)\\), \\(B(-3, 2)\\), and \\(C(-3, -4)\\) on a coordinate plane.\nDraw a path from \\(A\\) to \\(B\\). Then draw a path from \\(B\\) to \\(C\\). What kind of corner does the path make at \\(B\\)?\nSolve \\(x + 35 = 90\\).",
+    "crumbs": [
+      "Unit 1: Lines, Angles, and Equations",
+      "1.1 - Points, Lines, Segments, and Angles"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_1/1.1_Points_Lines_Segments_and_Angles.html#learn",
+    "href": "chapters/Unit_1/1.1_Points_Lines_Segments_and_Angles.html#learn",
+    "title": "1.1 - Points, Lines, Segments, and Angles",
+    "section": "👥 Learn Together",
+    "text": "👥 Learn Together\n\n1.1.1 - Points, Lines, and Planes\nThe tip of a sharp pencil makes a tiny dot. In geometry, a point is an exact location. It has no size at all. We name a point with a capital letter.\nA line is straight and goes on forever in both directions. We draw an arrow on each end to show that it never stops.\nA plane is a flat surface that goes on forever in every direction. A floor or a wall is part of a plane.\n\n\n\n\n\n\n\n\n\nObject\nPicture\nName\nSymbol\n\n\n\n\npoint\n\npoint \\(A\\)\n\\(A\\)\n\n\nline\n\nline \\(AB\\), or one small letter like line \\(\\ell\\)\n\\(\\overleftrightarrow{AB}\\)\n\n\nplane\n\nplane \\(P\\), or three points in it that are not on one line\n\n\n\n\n\nThrough any two points there is exactly one line.\n\nPoints that lie on the same line are collinear. Points that lie in the same plane are coplanar.\n\nExample 1: Points, lines, and planes\n\n\n\n\n\n\nName line \\(\\ell\\) another way.\nUse any two points on the line: \\(\\overleftrightarrow{AB}\\). (\\(\\overleftrightarrow{AC}\\) and \\(\\overleftrightarrow{BC}\\) also work.)\nName three collinear points.\n\\(A\\), \\(B\\), and \\(C\\). They are all on line \\(\\ell\\).\nAre \\(A\\), \\(B\\), and \\(D\\) collinear?\nNo. Point \\(D\\) is not on line \\(\\ell\\).\nName a point that is not in plane \\(M\\).\nPoint \\(E\\).\n\n\n\nName line \\(\\ell\\) using points \\(B\\) and \\(C\\).\nName three points in plane \\(M\\) that are not collinear.\n\n\n\n\n\\(\\overleftrightarrow{BC}\\) (or \\(\\overleftrightarrow{CB}\\))\n\\(A\\), \\(B\\), and \\(D\\). (Any two of \\(A\\), \\(B\\), \\(C\\) with point \\(D\\) also work.)\n\n\n\n\n\n1.1.2 - Segments and Rays\nA real street does not go on forever. It starts at one corner and stops at another. In geometry, part of a line with two ends is a segment. The two ends are its endpoints.\nA flashlight beam starts at the flashlight and keeps going. In geometry, part of a line that starts at one endpoint and goes on forever in one direction is a ray.\n\n\n\n\n\n\n\n\n\nObject\nPicture\nName\nSymbol\n\n\n\n\nsegment\n\nsegment \\(AB\\)\n\\(\\overline{AB}\\)\n\n\nray\n\nray \\(AB\\)\n\\(\\overrightarrow{AB}\\)\n\n\n\n\n\\(\\overline{AB}\\) and \\(\\overline{BA}\\) are the same segment.\n\\(\\overrightarrow{AB}\\) and \\(\\overrightarrow{BA}\\) are different rays. \\(\\overrightarrow{AB}\\) starts at \\(A\\). \\(\\overrightarrow{BA}\\) starts at \\(B\\). The first letter of a ray is always its endpoint.\n\n\n\\(\\overline{AB}\\), with a bar, is the segment. It is something you can draw.\n\\(AB\\), with no bar, is the length of the segment. It is a number, like \\(AB = 5\\).\n\n\nExample 2: Opposite rays\n\n\n\n\n\n\nName the two rays that start at \\(Q\\).\n\\(\\overrightarrow{QP}\\) and \\(\\overrightarrow{QR}\\).\nThese two rays have the same endpoint and go in opposite directions. Together they make a line. They are opposite rays.\nName every segment in the figure.\n\\(\\overline{PQ}\\), \\(\\overline{QR}\\), and \\(\\overline{PR}\\).\n\n\n\nIs \\(\\overrightarrow{PQ}\\) the same ray as \\(\\overrightarrow{PR}\\)?\nIs \\(\\overrightarrow{QP}\\) the same ray as \\(\\overrightarrow{PQ}\\)?\n\n\n\n\nYes. Both start at \\(P\\) and go to the right forever. They pass through the same points.\nNo. \\(\\overrightarrow{QP}\\) starts at \\(Q\\) and goes left. \\(\\overrightarrow{PQ}\\) starts at \\(P\\) and goes right.\n\n\n\n\n\n1.1.3 - Angles\nLook at corner \\(A\\) on the street map. Main St and Oak St both leave corner \\(A\\), in two different directions. That makes an angle.\nAn angle is two rays with the same endpoint. The rays are the sides of the angle. The shared endpoint is the vertex.\n\n\n\n\n\nYou can name this angle three ways:\n\n\\(\\angle ABC\\) or \\(\\angle CBA\\): three letters, with the vertex in the middle\n\\(\\angle B\\): the vertex only\n\\(\\angle 1\\): the number written inside the angle\n\nWe measure angles in degrees (\\(^\\circ\\)). One full turn is \\(360^\\circ\\). This angle measures \\(130^\\circ\\). We write \\(m\\angle ABC = 130^\\circ\\). Read it as “the measure of angle \\(ABC\\) is 130 degrees.”\n\nExample 3: Angles that share a vertex\n\n\n\n\n\nName the three angles that have their vertex at \\(B\\).\n\\(\\angle ABC\\), \\(\\angle CBD\\), and \\(\\angle ABD\\).\n\nIn Example 3, the name \\(\\angle B\\) could mean any of the three angles. When two or more angles share a vertex, always use three letters.\n\n\n\nName \\(\\angle CBD\\) another way with three letters.\nWhich of the three angles is the largest?\n\n\n\n\n\\(\\angle DBC\\)\n\\(\\angle ABD\\). It is made of the other two angles together.\n\n\n\n\n\n1.1.4 - Classifying Angles\nWe sort angles into four types by their measure.\n\n\n\n\n\n\n\n\nType\nMeasure\n\n\n\n\nacute\nmore than \\(0^\\circ\\) and less than \\(90^\\circ\\)\n\n\nright\nexactly \\(90^\\circ\\)\n\n\nobtuse\nmore than \\(90^\\circ\\) and less than \\(180^\\circ\\)\n\n\nstraight\nexactly \\(180^\\circ\\)\n\n\n\nA small square at the vertex means the angle is a right angle.\n\nExample 4: Angles on a clock\n\n\n\n\n\nThe hands of a clock make an angle. What angle do they make at 2:00?\nA full turn is \\(360^\\circ\\), and a clock has 12 hour marks. So the angle from one hour mark to the next is\n\\[\n360^\\circ \\div 12 = 30^\\circ.\n\\]\nAt 2:00 the hands are 2 hour marks apart:\n\\[\n2 \\times 30^\\circ = 60^\\circ.\n\\]\n\\(60^\\circ\\) is less than \\(90^\\circ\\), so the angle is acute.\n\nThe hands are 5 hour marks apart: \\(5 \\times 30^\\circ = 150^\\circ\\).\n\\(150^\\circ\\) is between \\(90^\\circ\\) and \\(180^\\circ\\), so the angle is obtuse.\n\n\n\n\n1.1.5 - What a Figure Shows\nA drawing can fool your eyes. In geometry, we only trust two things: what we are told, and what the figure marks.\n\nA small square at a vertex means a right angle.\nMatching tick marks mean segments have the same length.\n\nExample 5: Marks and looks\n\n\n\n\n\n\nWhich angle is a right angle for sure?\n\\(\\angle 1\\). It has the square mark.\nIs \\(\\angle 2\\) a right angle?\nWe cannot tell. It looks close to \\(90^\\circ\\), but it has no mark. (It really measures \\(86^\\circ\\).)\nWhich segments have the same length for sure?\n\\(\\overline{AB}\\) and \\(\\overline{CD}\\). They have matching tick marks, so \\(AB = CD\\).\nDo \\(\\overline{EF}\\) and \\(\\overline{GH}\\) have the same length?\nWe cannot tell. They have no marks. (\\(\\overline{GH}\\) is a little longer.)\n\nRemember that lines go on forever. A drawing shows only part of a line.\n\n\n\n\n\n\nYes. On the page they do not touch. But lines go on forever. These two lines get closer as they go to the right, so they meet past the edge of the page.",
+    "crumbs": [
+      "Unit 1: Lines, Angles, and Equations",
+      "1.1 - Points, Lines, Segments, and Angles"
+    ]
+  },
+  {
+    "objectID": "chapters/Unit_1/1.1_Points_Lines_Segments_and_Angles.html#practice",
+    "href": "chapters/Unit_1/1.1_Points_Lines_Segments_and_Angles.html#practice",
+    "title": "1.1 - Points, Lines, Segments, and Angles",
+    "section": "✍️ Practice On Your Own",
+    "text": "✍️ Practice On Your Own\nUse the figure for problems 1 to 4.\n\n\n\n\n\n\nName line \\(n\\) two other ways.\nName three collinear points.\nName a point in plane \\(Q\\) that is not on line \\(n\\).\nName a point that is not in plane \\(Q\\).\n\n\nWrite the symbol.\n\nThe segment with endpoints \\(R\\) and \\(S\\).\nThe ray that starts at \\(T\\) and goes through \\(U\\).\nThe line through \\(M\\) and \\(N\\).\nThe length of the segment with endpoints \\(X\\) and \\(Y\\).\n\n\nTrue or false? Explain your answer.\n\n\\(\\overline{GH}\\) and \\(\\overline{HG}\\) are the same segment.\n\\(\\overrightarrow{GH}\\) and \\(\\overrightarrow{HG}\\) are the same ray.\n\n\nUse the figure for problems 11 to 14.\n\n\n\n\n\n\nName the three angles that have their vertex at \\(K\\).\nWhy is \\(\\angle K\\) not a good name for any of these angles?\nClassify \\(\\angle LKM\\) as acute, right, obtuse, or straight.\nClassify \\(\\angle JKM\\) as acute, right, obtuse, or straight.\n\n\nClassify each angle as acute, right, obtuse, or straight.\n\n\\(12^\\circ\\)\n\\(90^\\circ\\)\n\\(145^\\circ\\)\n\\(180^\\circ\\)\n\n\nFind the angle between the hands of a clock. Then classify the angle.\n\n3:00\n4:00\n6:00\n1:00\n\n\nWhat does the figure show? The figure looks like a square. For problems 23 to 26, write must be true or cannot tell.\n\n\n\n\n\n\n\\(\\angle A\\) is a right angle.\n\\(\\angle C\\) is a right angle.\n\\(AB = BC\\)\n\\(CD = DA\\)\nIs \\(ABCD\\) a square? Explain how you know.\n\n\nTest practice\n\nPoints \\(A\\), \\(B\\), and \\(C\\) are collinear, and point \\(B\\) is between \\(A\\) and \\(C\\). Which statement is true?\nA. \\(\\overrightarrow{BA}\\) and \\(\\overrightarrow{BC}\\) are opposite rays.\nB. \\(\\overrightarrow{AB}\\) and \\(\\overrightarrow{BC}\\) are opposite rays.\nC. \\(\\overrightarrow{BA}\\) and \\(\\overrightarrow{AB}\\) are the same ray.\nD. \\(\\overline{AB}\\) is longer than \\(\\overline{AC}\\).\nThe measure of an angle is 3 times \\(32^\\circ\\). Which word describes the angle?\nA. acute\nB. right\nC. obtuse\nD. straight\n\n\nChallenge\n\nFour points lie in a plane. No three of them are collinear. How many different lines can you draw through two of the points? Draw a picture to check.",
+    "crumbs": [
+      "Unit 1: Lines, Angles, and Equations",
+      "1.1 - Points, Lines, Segments, and Angles"
+    ]
+  },
+  {
+    "objectID": "guided-notes.html",
+    "href": "guided-notes.html",
+    "title": "Printable Guided Notes",
+    "section": "",
+    "text": "Unit 1 - Lines, Angles, and Equations\nEvery lesson has a guided notes handout. It has the objectives, the key ideas with blanks to fill in, and every example and practice problem with room to work.\nOpen one and use your browser’s Print command. They are laid out for letter-size paper.",
+    "crumbs": [
+      "Printable Guided Notes"
+    ]
+  },
+  {
+    "objectID": "guided-notes.html#unit-1---lines-angles-and-equations",
+    "href": "guided-notes.html#unit-1---lines-angles-and-equations",
+    "title": "Printable Guided Notes",
+    "section": "",
+    "text": "1.1 - Points, Lines, Segments, and Angles",
+    "crumbs": [
+      "Printable Guided Notes"
+    ]
+  },
+  {
+    "objectID": "glossary.html",
+    "href": "glossary.html",
+    "title": "Glossary",
+    "section": "",
+    "text": "acute angle\nAn angle that measures more than \\(0^\\circ\\) and less than \\(90^\\circ\\).\nSee Also: right angle, obtuse angle\n\n\n\nangle\nTwo rays with the same endpoint. The endpoint is the vertex. Write \\(\\angle ABC\\), with the vertex in the middle.\n\nExample:\n\\(\\angle ABC\\), \\(\\angle B\\), and \\(\\angle 1\\) can all name the same angle.\n\nSee Also: vertex, degree\n\n\n\ncollinear\nPoints that lie on the same line.\nSee Also: coplanar\n\n\n\ncoplanar\nPoints or lines that lie in the same plane.\nSee Also: collinear\n\n\n\ndegree\nThe unit for measuring angles, written \\(^\\circ\\). A full turn is \\(360^\\circ\\). A right angle is \\(90^\\circ\\).\n\n\n\nendpoint\nA point at the end of a segment or the start of a ray.\n\n\n\nintersect\nTo cross or meet. Two lines intersect at a point. Two planes intersect in a line.\n\n\n\nline\nA straight path of points that goes on forever in both directions. Write \\(\\overleftrightarrow{AB}\\) or name it with one small letter, like line \\(\\ell\\).\nSee Also: segment, ray\n\n\n\nmeasure of an angle\nHow far an angle opens, in degrees. Write \\(m\\angle ABC = 40^\\circ\\). Read it as “the measure of angle \\(ABC\\) is 40 degrees.”\n\n\n\nobtuse angle\nAn angle that measures more than \\(90^\\circ\\) and less than \\(180^\\circ\\).\nSee Also: acute angle, straight angle\n\n\n\nopposite rays\nTwo rays with the same endpoint that go in opposite directions. Together they make a line.\n\n\n\nplane\nA flat surface that goes on forever in every direction. Name it with one capital letter, like plane \\(P\\), or with three points in it that are not on one line.\n\n\n\npoint\nAn exact location. A point has no size. Name it with a capital letter, like point \\(A\\).\n\n\n\nray\nPart of a line that starts at one endpoint and goes on forever in one direction. Write \\(\\overrightarrow{AB}\\): it starts at \\(A\\) and goes through \\(B\\).\nSee Also: opposite rays\n\n\n\nright angle\nAn angle that measures exactly \\(90^\\circ\\). A small square at the vertex marks a right angle.\n\n\n\nsegment\nPart of a line between two endpoints. Write \\(\\overline{AB}\\). Its length is written \\(AB\\), with no bar.\n\n\n\nstraight angle\nAn angle that measures exactly \\(180^\\circ\\). Its sides are opposite rays, so it looks like a line.\n\n\n\nvertex\nThe point where the two sides of an angle meet. The plural is vertices.",
+    "crumbs": [
+      "Glossary"
+    ]
+  }
+]
